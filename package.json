@@ -1,0 +1,21 @@
+{
+  "name": "react-gh-like-diff",
+  "version": "0.0.1",
+  "description": "Generate Github like diff result.",
+  "main": "index.js",
+  "author": "Peng-Jie <bivinity.pengzjie@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "difflib": "^0.2.4",
+    "prop-types": "^15.5.10",
+    "recompose": "^0.24.0"
+  },
+  "devDependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "peerDependencies": {
+    "react": "^0.14.7 || ^15.0.0",
+    "react-dom": "^0.14.7 || ^15.0.0"
+  }
+}
