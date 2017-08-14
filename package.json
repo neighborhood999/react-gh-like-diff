@@ -6,6 +6,7 @@
   "author": "Peng-Jie <bivinity.pengzjie@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "diff2html": "^2.3.0",
     "difflib": "^0.2.4",
     "prop-types": "^15.5.10",
     "recompose": "^0.24.0"
