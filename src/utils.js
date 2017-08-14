@@ -1,9 +1,10 @@
 import difflib from 'difflib';
 import { format } from 'util';
-import { Diff2Html } from 'diff2html';
 import { compose } from 'recompose';
 
-const defaultOptions = {
+const { Diff2Html: { getPrettyHtml } } = require('diff2html');
+
+export const defaultOptions = {
   originalFileName: 'Unknown-File-Name',
   updatedFileName: 'Unknown-File-Name',
   inputFormat: 'diff',
@@ -42,7 +43,7 @@ const gendDiff2Html = ({ past, current, options }) => {
     diffArray.join('\n')
   );
 
-  return Diff2Html.getPrettyHtml(diffString, options);
+  return getPrettyHtml(diffString, options);
 };
 
-export default compose(genDiffString, withErrorMessage);
+export const diffHelper = compose(gendDiff2Html, withErrorMessage);
