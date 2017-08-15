@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { diffHelper, defaultOptions } from './utils';
+import diffHelper, { defaultOptions } from './utils';
 import {
   compose,
   defaultProps,
