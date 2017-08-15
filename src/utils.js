@@ -46,4 +46,4 @@ const gendDiff2Html = ({ past, current, options }) => {
   return getPrettyHtml(diffString, options);
 };
 
-export const diffHelper = compose(gendDiff2Html, withErrorMessage);
+export default compose(gendDiff2Html, withErrorMessage);
