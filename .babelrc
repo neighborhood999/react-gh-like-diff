@@ -1,8 +1,7 @@
 {
-	"presets": ["es2015", "react"],
-  "env": {
-    "production": {
-      "presets": ["react-optimize"]
-    }
-  }
+	"presets": [
+		["es2015", { "modules": false, "loose": true }],
+		"react"
+	],
+	"plugins": "external-helpers"
 }
