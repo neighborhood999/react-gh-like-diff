@@ -5,7 +5,6 @@ import commonjs from 'rollup-plugin-commonjs';
 import nodeResolve from 'rollup-plugin-node-resolve';
 import css from 'rollup-plugin-css-porter';
 
-const pkgName = pkg.name;
 const config = {
   entry: 'src/index.js',
   external: ['react', 'prop-types', 'recompose', 'difflib'],
@@ -33,7 +32,7 @@ const config = {
     { dest: pkg.main, format: 'cjs' },
     { dest: pkg.module, format: 'es' },
     {
-      dest: `dist/${pkgName}.umd.js`,
+      dest: pkg.umd,
       format: 'umd',
       moduleName: 'react-gh-like-diff'
     }

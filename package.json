@@ -7,12 +7,15 @@
   "jsnext:main": "es/react-gh-like-diff.esm.js",
   "umd": "dist/react-gh-like-diff.umd.js",
   "scripts": {
-    "build": "npm-run-all clean rollup minify:*",
+    "build": "npm-run-all clean rollup minify:* size:*",
     "clean": "rimraf lib es dist",
-    "rollup": "rollup -c",
+    "rollup": "npm run clean && rollup -c",
     "minify:cjs": "uglifyjs $npm_package_main -cm -o $npm_package_main",
     "minify:esm": "babel --env=production --presets=minify $npm_package_module -o $npm_package_module",
-    "minify:umd": "uglifyjs $npm_package_umd -cm -o $npm_package_umd"
+    "minify:umd": "uglifyjs $npm_package_umd -cm -o $npm_package_umd",
+    "size:cjs": "echo CommonJs Gziped Size: $(gzip-size $npm_package_main) | chalk greenBright bold",
+    "size:umd": "echo UMD Gziped Size: $(gzip-size $npm_package_umd) | chalk greenBright bold",
+    "size:es": "echo ESModule Gziped Size: $(gzip-size $npm_package_module) | chalk greenBright bold"
   },
   "author": "Peng-Jie <bivinity.pengzjie@gmail.com>",
   "license": "MIT",
@@ -29,7 +32,8 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-minify": "^0.2.0",
     "babel-preset-react": "^6.24.1",
-    "cross-env": "^5.0.5",
+    "chalk-cli": "^4.0.0",
+    "gzip-size-cli": "^2.0.0",
     "npm-run-all": "^4.0.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -37,12 +41,10 @@
     "rollup": "^0.47.4",
     "rollup-plugin-babel": "^3.0.1",
     "rollup-plugin-commonjs": "^8.1.0",
-    "rollup-plugin-css-only": "^0.2.0",
     "rollup-plugin-css-porter": "^0.1.2",
     "rollup-plugin-node-builtins": "^2.1.2",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-replace": "^1.1.1",
-    "rollup-plugin-uglify": "^2.0.1",
     "uglify-js": "^3.0.27"
   },
   "peerDependencies": {
