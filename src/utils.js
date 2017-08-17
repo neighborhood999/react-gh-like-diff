@@ -26,7 +26,7 @@ const withErrorMessage = props => {
   return props;
 };
 
-const gendDiff2Html = ({ past, current, options }) => {
+const genDiff2Html = ({ past, current, options }) => {
   const nextOptions = Object.assign({}, defaultOptions, options);
   const pastArray = past.split('/\r|\n|\r\n');
   const currentArray = current.split('/\r|\n|\r\n');
@@ -46,4 +46,4 @@ const gendDiff2Html = ({ past, current, options }) => {
   return getPrettyHtml(diffString, options);
 };
 
-export default compose(gendDiff2Html, withErrorMessage);
+export default compose(genDiff2Html, withErrorMessage);
