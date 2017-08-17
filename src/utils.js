@@ -1,4 +1,4 @@
-import difflib from 'difflib';
+import { unifiedDiff } from 'difflib';
 import { format } from 'util';
 import { compose } from 'recompose';
 
@@ -31,7 +31,7 @@ const gendDiff2Html = ({ past, current, options }) => {
   const pastArray = past.split('/\r|\n|\r\n');
   const currentArray = current.split('/\r|\n|\r\n');
 
-  const diffArray = difflib.unifiedDiff(pastArray, currentArray, {
+  const diffArray = unifiedDiff(pastArray, currentArray, {
     fromFile: nextOptions.originalFileName,
     toFile: nextOptions.updatedFileName
   });
