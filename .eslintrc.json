@@ -2,6 +2,7 @@
   "parser": "babel-eslint",
   "env": {
     "browser": true,
+    "node": true,
     "es6": true
   },
   "extends": ["prettier", "prettier/react"],
@@ -10,7 +11,7 @@
     "prettier/prettier": [
       "error",
       {
-        "trailingComma": "es5",
+        "bracketSpacing": true,
         "singleQuote": true
       }
     ]

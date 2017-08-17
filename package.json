@@ -16,6 +16,7 @@
     "size:cjs": "echo CommonJs Gziped Size: $(gzip-size $npm_package_main) | chalk greenBright bold",
     "size:umd": "echo UMD Gziped Size: $(gzip-size $npm_package_umd) | chalk greenBright bold",
     "size:es": "echo ESModule Gziped Size: $(gzip-size $npm_package_module) | chalk greenBright bold",
+    "lint": "eslint src",
     "precommit": "lint-staged"
   },
   "lint-staged": {
