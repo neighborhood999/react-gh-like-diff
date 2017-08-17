@@ -33,7 +33,7 @@ const config = {
     { dest: pkg.main, format: 'cjs' },
     { dest: pkg.module, format: 'es' },
     {
-      dest: `dist/${pkgName}.js`,
+      dest: `dist/${pkgName}.umd.js`,
       format: 'umd',
       moduleName: 'react-gh-like-diff'
     }
