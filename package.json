@@ -7,17 +7,30 @@
   "jsnext:main": "es/react-gh-like-diff.esm.js",
   "umd": "dist/react-gh-like-diff.umd.js",
   "scripts": {
-    "build": "npm-run-all clean rollup minify:* size:*",
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "test:cov": "jest --coverage",
+    "build": "npm-run-all clean rollup minify:*",
     "clean": "rimraf lib es dist",
     "rollup": "npm run clean && rollup -c",
-    "minify:cjs": "uglifyjs $npm_package_main -cm -o $npm_package_main",
+    "minify:cjs": "uglifyjs $npm_package_main -cm toplevel -o $npm_package_main",
     "minify:esm": "babel --env=production --presets=minify $npm_package_module -o $npm_package_module",
-    "minify:umd": "uglifyjs $npm_package_umd -cm -o $npm_package_umd",
+    "minify:umd": "uglifyjs $npm_package_umd -c warnings=false -m toplevel -o $npm_package_umd",
     "size:cjs": "echo CommonJs Gziped Size: $(gzip-size $npm_package_main) | chalk greenBright bold",
     "size:umd": "echo UMD Gziped Size: $(gzip-size $npm_package_umd) | chalk greenBright bold",
     "size:es": "echo ESModule Gziped Size: $(gzip-size $npm_package_module) | chalk greenBright bold",
     "lint": "eslint src",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "prepublish": "npm run build"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/*.spec.js"
+    ],
+    "coverageReporters": [
+      "text"
+    ]
   },
   "lint-staged": {
     "*.js": [
@@ -42,17 +55,20 @@
     "babel-preset-minify": "^0.2.0",
     "babel-preset-react": "^6.24.1",
     "chalk-cli": "^4.0.0",
+    "enzyme": "^2.9.1",
     "eslint": "^4.4.1",
     "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-prettier": "^2.2.0",
     "eslint-plugin-react": "^7.2.1",
     "gzip-size-cli": "^2.0.0",
     "husky": "^0.14.3",
+    "jest": "^20.0.4",
     "lint-staged": "^4.0.3",
     "npm-run-all": "^4.0.2",
     "prettier": "^1.5.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.6.1",
     "rimraf": "^2.6.1",
     "rollup": "^0.47.4",
     "rollup-plugin-babel": "^3.0.1",
