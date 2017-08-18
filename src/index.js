@@ -8,19 +8,18 @@ import {
   onlyUpdateForPropTypes,
   setPropTypes
 } from 'recompose';
-import 'diff2html/dist/diff2html.css';
 
-const renderDiffResult = ({ genDiffHTML }) =>
+export const RenderDiffResult = ({ genDiffHTML }) =>
   <div dangerouslySetInnerHTML={{ __html: genDiffHTML }} />;
 
 export default compose(
   defaultProps({ options: defaultOptions }),
   onlyUpdateForPropTypes,
   setPropTypes({
-    past: PropTypes.any.isRequired,
-    current: PropTypes.any.isRequired
+    past: PropTypes.string.isRequired,
+    current: PropTypes.string.isRequired
   }),
   mapProps(props => ({
     genDiffHTML: diffHelper(props)
   }))
-)(renderDiffResult);
+)(RenderDiffResult);
