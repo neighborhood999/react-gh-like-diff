@@ -26,7 +26,7 @@ const withErrorMessage = props => {
   return props;
 };
 
-const genDiff2Html = ({ past, current, options }) => {
+const compare = ({ past, current, options }) => {
   const nextOptions = Object.assign({}, defaultOptions, options);
   const pastArray = past.split('/\r|\n|\r\n');
   const currentArray = current.split('/\r|\n|\r\n');
@@ -43,7 +43,13 @@ const genDiff2Html = ({ past, current, options }) => {
     diffArray.join('\n')
   );
 
-  return getPrettyHtml(diffString, options);
+  return {
+    diffString,
+    options
+  };
 };
 
-export default compose(genDiff2Html, withErrorMessage);
+const genDiff2Html = ({ diffString, options }) =>
+  getPrettyHtml(diffString, options);
+
+export default compose(genDiff2Html, compare, withErrorMessage);
