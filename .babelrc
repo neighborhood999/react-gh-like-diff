@@ -3,5 +3,12 @@
 		["es2015", { "modules": false, "loose": true }],
 		"react"
 	],
-	"plugins": "external-helpers"
+	"env": {
+		"test": {
+			"presets": [
+				["es2015", { "loose": true }],
+				"react"
+			]
+		}
+	}
 }
