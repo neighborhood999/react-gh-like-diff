@@ -7,9 +7,9 @@
   "jsnext:main": "es/react-gh-like-diff.esm.js",
   "umd": "dist/react-gh-like-diff.umd.js",
   "scripts": {
-    "test": "jest",
+    "test": "npm run lint && jest",
     "test:watch": "npm test -- --watch",
-    "test:cov": "jest --coverage",
+    "test:cov": "npm run lint && jest --coverage",
     "build": "npm-run-all clean rollup minify:*",
     "clean": "rimraf lib es dist",
     "rollup": "npm run clean && rollup -c",

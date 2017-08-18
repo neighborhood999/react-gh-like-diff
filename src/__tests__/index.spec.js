@@ -11,7 +11,7 @@ test('should render innerHTML by dangerouslySetInnerHTML', () => {
   expect(wrapper.render().find('h1').text()).toBe('Hello World');
 });
 
-test('', () => {
+test('should render different result into HTML', () => {
   const past = 'Hello';
   const current = 'Hello World';
   const options = {
