@@ -15,6 +15,7 @@ const config = {
     difflib: 'difflib',
     util: 'util'
   },
+  exports: 'named',
   plugins: [
     babel({
       exclude: 'node_modules/**',
