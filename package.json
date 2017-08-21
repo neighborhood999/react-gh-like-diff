@@ -28,6 +28,10 @@
     "testMatch": [
       "<rootDir>/src/**/__tests__/*.spec.js"
     ],
+    "moduleNameMapper": {
+      "^.+\\.(css)$": "<rootDir>/src/__tests__/stub.js"
+    },
+    "verbose": true,
     "coverageReporters": [
       "text"
     ]
