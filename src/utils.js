@@ -10,7 +10,7 @@ export const defaultOptions = {
   inputFormat: 'diff',
   outputFormat: 'line-by-line',
   showFiles: false,
-  matching: 'words',
+  matching: 'none',
   matchWordsThreshold: 0.25,
   matchingMaxComparisons: 2500
 };
@@ -28,8 +28,8 @@ const withErrorMessage = props => {
 
 const compare = ({ past, current, options }) => {
   const nextOptions = Object.assign({}, defaultOptions, options);
-  const pastArray = past.split('/\r|\n|\r\n');
-  const currentArray = current.split('/\r|\n|\r\n');
+  const pastArray = past.split(/\r|\n|\r\n/);
+  const currentArray = current.split(/\r|\n|\r\n/);
 
   const diffArray = unifiedDiff(pastArray, currentArray, {
     fromFile: nextOptions.originalFileName,
