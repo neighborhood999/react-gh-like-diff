@@ -1,6 +1,6 @@
 {
   "name": "react-gh-like-diff",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "Generate Github like diff result in react.",
   "main": "lib/react-gh-like-diff.cjs.js",
   "module": "es/react-gh-like-diff.esm.js",
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "npm run lint && jest",
     "test:watch": "npm test -- --watch",
-    "test:cov": "npm run lint && jest --coverage",
+    "test:cov": "npm run lint && jest --coverage && codecov",
     "build": "npm-run-all clean rollup minify:* size:*",
     "clean": "rimraf lib es dist",
     "rollup": "npm run clean && rollup -c",
@@ -25,6 +25,7 @@
   },
   "jest": {
     "collectCoverage": true,
+    "coverageDirectory": "./coverage/",
     "testMatch": [
       "<rootDir>/src/**/__tests__/*.spec.js"
     ],
@@ -75,6 +76,7 @@
     "babel-preset-minify": "^0.2.0",
     "babel-preset-react": "^6.24.1",
     "chalk-cli": "^4.0.0",
+    "codecov": "^2.3.0",
     "enzyme": "^2.9.1",
     "eslint": "^4.4.1",
     "eslint-config-prettier": "^2.3.0",
