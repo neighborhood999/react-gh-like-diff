@@ -9,7 +9,7 @@
   "scripts": {
     "test": "npm run lint && jest",
     "test:watch": "npm test -- --watch",
-    "test:cov": "npm run lint && jest --coverage && codecov",
+    "test:cov": "npm run lint && jest --coverage",
     "build": "npm-run-all clean rollup minify:* size:*",
     "clean": "rimraf lib es dist",
     "rollup": "npm run clean && rollup -c",
@@ -34,7 +34,8 @@
     },
     "verbose": true,
     "coverageReporters": [
-      "text"
+      "text",
+      "lcov"
     ]
   },
   "lint-staged": {
