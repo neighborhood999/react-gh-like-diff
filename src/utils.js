@@ -45,7 +45,7 @@ const compare = ({ past, current, options }) => {
 
   return {
     diffString,
-    options
+    options: nextOptions
   };
 };
 
