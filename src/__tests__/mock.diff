@@ -1,0 +1,75 @@
+diff --git a/.travis.yml b/.travis.yml
+new file mode 100644
+index 0000000..b139704
+--- /dev/null
++++ b/.travis.yml
+@@ -0,0 +1,7 @@
++sudo: false
++language: node_js
++node_js:
++  - '6'
++  - '7'
++  - '8'
++script: "npm test"
+diff --git a/sagas/__tests__/index.spec.js b/sagas/__tests__/index.spec.js
+new file mode 100644
+index 0000000..6ebef43
+--- /dev/null
++++ b/sagas/__tests__/index.spec.js
+@@ -0,0 +1,33 @@
++import { call, take, put } from 'redux-saga/effects';
++import { watchLoadAccessToken } from '../';
++import { requestApiToken } from '../../api';
++import * as authActions from '../../actions/auth';
++
++describe('redux saga', () => {
++  test('should watch load access token flow', () => {
++    const mockQueryCode = { code: 'fa8aa50f4a801cbb6d686309eafe3994' };
++    const mockResponseData = {
++      data: {
++        access_token: '071785dd71832da26b273cf495aec8e8',
++        user: {
++          id: 1,
++          username: 'neighrbohood999'
++        }
++      }
++    };
++    const generator = watchLoadAccessToken();
++
++    expect(generator.next().value).toEqual(
++      take(authActions.REQUEST_ACCESSTOKEN)
++    );
++
++    expect(generator.next(mockQueryCode).value).toEqual(
++      call(requestApiToken, 'fa8aa50f4a801cbb6d686309eafe3994')
++    );
++
++    const { data: { access_token, user } } = mockResponseData;
++    expect(generator.next(mockResponseData).value).toEqual(
++      put(authActions.receiveAccessToken({ access_token, user }))
++    );
++  });
++});
+diff --git a/sagas/index.js b/sagas/index.js
+index 078ff84..f1caa6e 100644
+--- a/sagas/index.js
++++ b/sagas/index.js
+@@ -1,3 +1,17 @@
++import { all, call, take, put, fork } from 'redux-saga/effects';
++import { requestApiToken } from '../api';
++import * as actions from '../actions/auth';
++
++export function* watchLoadAccessToken() {
++  while (true) {
++    const { code } = yield take(actions.REQUEST_ACCESSTOKEN);
++    const { data: { access_token, user } } = yield call(requestApiToken, code);
++    yield put(actions.receiveAccessToken({ access_token, user }));
++  }
++}
++
+ export default function* rootSaga() {
+-  console.log('root saga');
++  yield all([
++    fork(watchLoadAccessToken)
++  ]);
+ }
