@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import diffHelper, { defaultOptions } from './utils';
+import diffHelper, { defaultOptions, genPrettyHtml } from './utils';
 import {
+  branch,
   compose,
   defaultProps,
   mapProps,
@@ -14,13 +15,18 @@ export const RenderDiffResult = ({ genDiffHTML }) =>
   <div dangerouslySetInnerHTML={{ __html: genDiffHTML }} />;
 
 export default compose(
-  defaultProps({ options: defaultOptions }),
+  defaultProps({ diffString: '', options: defaultOptions }),
   onlyUpdateForPropTypes,
   setPropTypes({
-    past: PropTypes.string.isRequired,
-    current: PropTypes.string.isRequired
+    past: PropTypes.string,
+    current: PropTypes.string,
+    diffString: PropTypes.string
   }),
-  mapProps(props => ({
-    genDiffHTML: diffHelper(props)
-  }))
+  branch(
+    ({ diffString }) => diffString.length !== 0,
+    () => props => <RenderDiffResult genDiffHTML={genPrettyHtml(props)} />,
+    mapProps(props => ({
+      genDiffHTML: diffHelper(props)
+    }))
+  )
 )(RenderDiffResult);

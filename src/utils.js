@@ -8,7 +8,7 @@ export const defaultOptions = {
   originalFileName: 'Unknown-File-Name',
   updatedFileName: 'Unknown-File-Name',
   inputFormat: 'diff',
-  outputFormat: 'line-by-line',
+  outputFormat: 'side-by-side',
   showFiles: false,
   matching: 'none',
   matchWordsThreshold: 0.25,
@@ -27,29 +27,31 @@ const withErrorMessage = props => {
 };
 
 const compare = ({ past, current, options }) => {
-  const nextOptions = Object.assign({}, defaultOptions, options);
   const pastArray = past.split(/\r|\n|\r\n/);
   const currentArray = current.split(/\r|\n|\r\n/);
 
   const diffArray = unifiedDiff(pastArray, currentArray, {
-    fromFile: nextOptions.originalFileName,
-    toFile: nextOptions.updatedFileName
+    fromFile: options.originalFileName,
+    toFile: options.updatedFileName
   });
 
   const diffString = format(
     'diff --git %s %s\n%s',
-    nextOptions.originalFileName,
-    nextOptions.updatedFileName,
+    options.originalFileName,
+    options.updatedFileName,
     diffArray.join('\n')
   );
 
   return {
     diffString,
-    options: nextOptions
+    options
   };
 };
 
-const genDiff2Html = ({ diffString, options }) =>
-  getPrettyHtml(diffString, options);
+export const genPrettyHtml = ({ diffString, options }) => {
+  const nextOptions = Object.assign({}, defaultOptions, options);
 
-export default compose(genDiff2Html, compare, withErrorMessage);
+  return getPrettyHtml(diffString, nextOptions);
+};
+
+export default compose(genPrettyHtml, compare, withErrorMessage);

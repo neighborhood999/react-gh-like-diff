@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
 import renderer from 'react-test-renderer';
+import { readFileSync } from 'fs';
 import ReactGhLikeDiff, { RenderDiffResult } from '../index';
 import { defaultOptions } from '../utils';
 
@@ -11,7 +12,7 @@ test('should render innerHTML by dangerouslySetInnerHTML', () => {
   expect(wrapper.render().find('h1').text()).toBe('Hello World');
 });
 
-test('should render different result into HTML', () => {
+test('should render `past` and `current` difference comparison result into HTML', () => {
   const past = 'Hello';
   const current = 'Hello World';
   const options = {
@@ -24,11 +25,27 @@ test('should render different result into HTML', () => {
   );
 
   expect(wrapper.name()).toBe(
-    'defaultProps(onlyUpdateForPropTypes(mapProps(Component)))'
+    'defaultProps(onlyUpdateForPropTypes(branch(Component)))'
   );
 
   const tree = renderer
     .create(<ReactGhLikeDiff past={past} current={current} options={options} />)
     .toJSON();
+
+  expect(tree).toMatchSnapshot();
+});
+
+test('should render `.diff` file content to HTML', () => {
+  const diffFile = readFileSync('./src/__tests__/mock.diff', 'utf8');
+  const wrapper = mount(<ReactGhLikeDiff diffString={diffFile} />);
+
+  expect(wrapper.name()).toBe(
+    'defaultProps(onlyUpdateForPropTypes(branch(Component)))'
+  );
+
+  const tree = renderer
+    .create(<ReactGhLikeDiff diffString={diffFile} />)
+    .toJSON();
+
   expect(tree).toMatchSnapshot();
 });
