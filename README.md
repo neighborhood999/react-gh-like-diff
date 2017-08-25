@@ -10,9 +10,9 @@
 
 ![react-gh-like-diff](./screenshot/diff-demo.png)
 
-> Generate Github like difference comparison based on [diff2html](https://github.com/rtfpessoa/diff2html).
+> Generate Github like comparison based on [diff2html](https://github.com/rtfpessoa/diff2html).
 
-You can comparison difference string or given `.diff` file to generate pretty HTML.
+You can compare string or given `.diff` file to generate pretty HTML.
 
 ## Installation
 
@@ -26,7 +26,7 @@ npm install react-gh-like-diff --save
 
 ## Configuration
 
-You can setting diff2html **extra options**, please reference [here](https://github.com/rtfpessoa/diff2html#configuration) :mag_right:.
+You can set diff2html **extra options**, reference is [here](https://github.com/rtfpessoa/diff2html#configuration) :mag_right:.
 
 ## Props
 
