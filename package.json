@@ -19,6 +19,7 @@
     "size:cjs": "echo CommonJs Gziped Size: $(gzip-size $npm_package_main) | chalk yellowBright bold",
     "size:umd": "echo UMD Gziped Size: $(gzip-size $npm_package_umd) | chalk yellowBright bold",
     "size:es": "echo ESModule Gziped Size: $(gzip-size $npm_package_module) | chalk yellowBright bold",
+    "size": "bundlesize",
     "lint": "eslint src",
     "precommit": "lint-staged",
     "prepush": "npm run test",
@@ -112,8 +113,10 @@
     "es",
     "dist"
   ],
-  "bundlesize": {
-    "path": "./lib/react-gh-like-diff.cjs.js",
-    "maxSize": "3.5 kB"
-  }
+  "bundlesize": [
+    {
+      "path": "./lib/react-gh-like-diff.cjs.js",
+      "maxSize": "3.5 kB"
+    }
+  ]
 }
