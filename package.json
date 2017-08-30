@@ -113,8 +113,10 @@
     "es",
     "dist"
   ],
-  "bundlesize": {
-    "path": "./lib/react-gh-like-diff.cjs.js",
-    "maxSize": "3.5 kB"
-  }
+  "bundlesize": [
+    {
+      "path": "./lib/react-gh-like-diff.cjs.js",
+      "maxSize": "3.5 kB"
+    }
+  ]
 }

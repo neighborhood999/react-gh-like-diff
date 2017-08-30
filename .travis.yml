@@ -14,7 +14,7 @@ cache:
 
 script:
   - "npm test"
-  - "npm size"
+  - "npm run size"
 
 after_script:
   - cat ./coverage/lcov.info | ./node_modules/codecov/bin/codecov
