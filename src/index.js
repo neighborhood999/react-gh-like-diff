@@ -15,7 +15,12 @@ export const RenderDiffResult = ({ genDiffHTML }) =>
   <div dangerouslySetInnerHTML={{ __html: genDiffHTML }} />;
 
 export default compose(
-  defaultProps({ diffString: '', options: defaultOptions }),
+  defaultProps({
+    diffString: '',
+    past: '',
+    current: '',
+    options: defaultOptions
+  }),
   onlyUpdateForPropTypes,
   setPropTypes({
     past: PropTypes.string,
