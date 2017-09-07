@@ -12,15 +12,3 @@ test('should convert input string into compared html', () => {
 
   expect(tree).toMatchSnapshot();
 });
-
-test('shound throw error message when missing necessary props', () => {
-  const past = undefined;
-  const current = undefined;
-  const props = {
-    past,
-    current,
-    options: defaultOptions
-  };
-
-  expect(() => utils(props)).toThrowError('Missing `past` or `current` props!');
-});
