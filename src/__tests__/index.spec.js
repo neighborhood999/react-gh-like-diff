@@ -13,11 +13,11 @@ test('should render innerHTML by dangerouslySetInnerHTML', () => {
 });
 
 test('should render `past` and `current` difference comparison result into HTML', () => {
-  const past = 'Hello';
-  const current = 'Hello World';
+  const past = '## Hello';
+  const current = '# Hello World';
   const options = {
-    originalFileName: 'test.txt',
-    updatedFileName: 'test.txt'
+    originalFileName: 'test.md',
+    updatedFileName: 'test.md'
   };
 
   const wrapper = mount(
@@ -36,15 +36,15 @@ test('should render `past` and `current` difference comparison result into HTML'
 });
 
 test('should render `.diff` file content to HTML', () => {
-  const diffFile = readFileSync('./src/__tests__/mock.diff', 'utf8');
-  const wrapper = mount(<ReactGhLikeDiff diffString={diffFile} />);
+  const fileContent = readFileSync('./src/__tests__/mock.diff', 'utf8');
+  const wrapper = mount(<ReactGhLikeDiff diffString={fileContent} />);
 
   expect(wrapper.name()).toBe(
     'defaultProps(onlyUpdateForPropTypes(branch(Component)))'
   );
 
   const tree = renderer
-    .create(<ReactGhLikeDiff diffString={diffFile} />)
+    .create(<ReactGhLikeDiff diffString={fileContent} />)
     .toJSON();
 
   expect(tree).toMatchSnapshot();
