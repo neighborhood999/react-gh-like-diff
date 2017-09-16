@@ -5,1153 +5,1153 @@ exports[`should render \`.diff\` file content to HTML 1`] = `
   dangerouslySetInnerHTML={
     Object {
       "__html": "<div class=\\"d2h-wrapper\\">
-        <div id=\\"d2h-606731\\" class=\\"d2h-file-wrapper\\" data-lang=\\"yml\\">
-        <div class=\\"d2h-file-header\\">
-          <span class=\\"d2h-file-name-wrapper\\">
-        <span class=\\"d2h-icon-wrapper\\"><svg aria-hidden=\\"true\\" class=\\"d2h-icon\\" height=\\"16\\" version=\\"1.1\\" viewBox=\\"0 0 12 16\\" width=\\"12\\">
-        <path d=\\"M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z\\"></path>
-    </svg></span>
-        <span class=\\"d2h-file-name\\">.travis.yml</span>
-        <span class=\\"d2h-tag d2h-added d2h-added-tag\\">ADDED</span></span>
+    <div id=\\"d2h-606731\\" class=\\"d2h-file-wrapper\\" data-lang=\\"yml\\">
+    <div class=\\"d2h-file-header\\">
+      <span class=\\"d2h-file-name-wrapper\\">
+    <span class=\\"d2h-icon-wrapper\\"><svg aria-hidden=\\"true\\" class=\\"d2h-icon\\" height=\\"16\\" version=\\"1.1\\" viewBox=\\"0 0 12 16\\" width=\\"12\\">
+    <path d=\\"M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z\\"></path>
+</svg></span>
+    <span class=\\"d2h-file-name\\">.travis.yml</span>
+    <span class=\\"d2h-tag d2h-added d2h-added-tag\\">ADDED</span></span>
+    </div>
+    <div class=\\"d2h-files-diff\\">
+        <div class=\\"d2h-file-side-diff\\">
+            <div class=\\"d2h-code-wrapper\\">
+                <table class=\\"d2h-diff-table\\">
+                    <tbody class=\\"d2h-diff-tbody\\">
+                    <tr>
+    <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
+    <td class=\\"d2h-info\\">
+        <div class=\\"d2h-code-side-line d2h-info\\">@@ -0,0 +1,7 @@</div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
         </div>
-        <div class=\\"d2h-files-diff\\">
-            <div class=\\"d2h-file-side-diff\\">
-                <div class=\\"d2h-code-wrapper\\">
-                    <table class=\\"d2h-diff-table\\">
-                        <tbody class=\\"d2h-diff-tbody\\">
-                        <tr>
-        <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
-        <td class=\\"d2h-info\\">
-            <div class=\\"d2h-code-side-line d2h-info\\">@@ -0,0 +1,7 @@</div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr>
+                    </tbody>
+                </table>
             </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class=\\"d2h-file-side-diff\\">
-                <div class=\\"d2h-code-wrapper\\">
-                    <table class=\\"d2h-diff-table\\">
-                        <tbody class=\\"d2h-diff-tbody\\">
-                        <tr>
-        <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
-        <td class=\\"d2h-info\\">
-            <div class=\\"d2h-code-side-line d2h-info\\"></div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          1
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">sudo: false</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          2
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">language: node_js</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          3
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">node_js:</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          4
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">  - &#x27;6&#x27;</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          5
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">  - &#x27;7&#x27;</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          6
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">  - &#x27;8&#x27;</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          7
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">script: &quot;npm test&quot;</span>
-            </div>
-        </td>
-    </tr>
-                        </tbody>
-                    </table>
-                </div>
+        </div>
+        <div class=\\"d2h-file-side-diff\\">
+            <div class=\\"d2h-code-wrapper\\">
+                <table class=\\"d2h-diff-table\\">
+                    <tbody class=\\"d2h-diff-tbody\\">
+                    <tr>
+    <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
+    <td class=\\"d2h-info\\">
+        <div class=\\"d2h-code-side-line d2h-info\\"></div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      1
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">sudo: false</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      2
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">language: node_js</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      3
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">node_js:</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      4
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">  - &#x27;6&#x27;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      5
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">  - &#x27;7&#x27;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      6
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">  - &#x27;8&#x27;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      7
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">script: &quot;npm test&quot;</span>
+        </div>
+    </td>
+</tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
-    <div id=\\"d2h-182094\\" class=\\"d2h-file-wrapper\\" data-lang=\\"js\\">
-        <div class=\\"d2h-file-header\\">
-          <span class=\\"d2h-file-name-wrapper\\">
-        <span class=\\"d2h-icon-wrapper\\"><svg aria-hidden=\\"true\\" class=\\"d2h-icon\\" height=\\"16\\" version=\\"1.1\\" viewBox=\\"0 0 12 16\\" width=\\"12\\">
-        <path d=\\"M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z\\"></path>
-    </svg></span>
-        <span class=\\"d2h-file-name\\">sagas/__tests__/index.spec.js</span>
-        <span class=\\"d2h-tag d2h-added d2h-added-tag\\">ADDED</span></span>
+</div>
+<div id=\\"d2h-182094\\" class=\\"d2h-file-wrapper\\" data-lang=\\"js\\">
+    <div class=\\"d2h-file-header\\">
+      <span class=\\"d2h-file-name-wrapper\\">
+    <span class=\\"d2h-icon-wrapper\\"><svg aria-hidden=\\"true\\" class=\\"d2h-icon\\" height=\\"16\\" version=\\"1.1\\" viewBox=\\"0 0 12 16\\" width=\\"12\\">
+    <path d=\\"M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z\\"></path>
+</svg></span>
+    <span class=\\"d2h-file-name\\">sagas/__tests__/index.spec.js</span>
+    <span class=\\"d2h-tag d2h-added d2h-added-tag\\">ADDED</span></span>
+    </div>
+    <div class=\\"d2h-files-diff\\">
+        <div class=\\"d2h-file-side-diff\\">
+            <div class=\\"d2h-code-wrapper\\">
+                <table class=\\"d2h-diff-table\\">
+                    <tbody class=\\"d2h-diff-tbody\\">
+                    <tr>
+    <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
+    <td class=\\"d2h-info\\">
+        <div class=\\"d2h-code-side-line d2h-info\\">@@ -0,0 +1,33 @@</div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
         </div>
-        <div class=\\"d2h-files-diff\\">
-            <div class=\\"d2h-file-side-diff\\">
-                <div class=\\"d2h-code-wrapper\\">
-                    <table class=\\"d2h-diff-table\\">
-                        <tbody class=\\"d2h-diff-tbody\\">
-                        <tr>
-        <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
-        <td class=\\"d2h-info\\">
-            <div class=\\"d2h-code-side-line d2h-info\\">@@ -0,0 +1,33 @@</div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class=\\"d2h-file-side-diff\\">
-                <div class=\\"d2h-code-wrapper\\">
-                    <table class=\\"d2h-diff-table\\">
-                        <tbody class=\\"d2h-diff-tbody\\">
-                        <tr>
-        <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
-        <td class=\\"d2h-info\\">
-            <div class=\\"d2h-code-side-line d2h-info\\"></div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          1
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">import { call, take, put } from &#x27;redux-saga&#x2F;effects&#x27;;</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          2
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">import { watchLoadAccessToken } from &#x27;..&#x2F;&#x27;;</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          3
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">import { requestApiToken } from &#x27;..&#x2F;..&#x2F;api&#x27;;</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          4
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">import * as authActions from &#x27;..&#x2F;..&#x2F;actions&#x2F;auth&#x27;;</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          5
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          6
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">describe(&#x27;redux saga&#x27;, () =&gt; {</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          7
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">  test(&#x27;should watch load access token flow&#x27;, () =&gt; {</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          8
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">    const mockQueryCode = { code: &#x27;fa8aa50f4a801cbb6d686309eafe3994&#x27; };</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          9
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">    const mockResponseData = {</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          10
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">      data: {</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          11
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">        access_token: &#x27;071785dd71832da26b273cf495aec8e8&#x27;,</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          12
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">        user: {</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          13
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">          id: 1,</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          14
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">          username: &#x27;neighrbohood999&#x27;</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          15
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">        }</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          16
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">      }</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          17
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">    };</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          18
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">    const generator = watchLoadAccessToken();</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          19
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          20
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">    expect(generator.next().value).toEqual(</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          21
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">      take(authActions.REQUEST_ACCESSTOKEN)</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          22
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">    );</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          23
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          24
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">    expect(generator.next(mockQueryCode).value).toEqual(</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          25
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">      call(requestApiToken, &#x27;fa8aa50f4a801cbb6d686309eafe3994&#x27;)</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          26
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">    );</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          27
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          28
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">    const { data: { access_token, user } } = mockResponseData;</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          29
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">    expect(generator.next(mockResponseData).value).toEqual(</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          30
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">      put(authActions.receiveAccessToken({ access_token, user }))</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          31
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">    );</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          32
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">  });</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          33
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">});</span>
-            </div>
-        </td>
-    </tr>
-                        </tbody>
-                    </table>
-                </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class=\\"d2h-file-side-diff\\">
+            <div class=\\"d2h-code-wrapper\\">
+                <table class=\\"d2h-diff-table\\">
+                    <tbody class=\\"d2h-diff-tbody\\">
+                    <tr>
+    <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
+    <td class=\\"d2h-info\\">
+        <div class=\\"d2h-code-side-line d2h-info\\"></div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      1
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">import { call, take, put } from &#x27;redux-saga&#x2F;effects&#x27;;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      2
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">import { watchLoadAccessToken } from &#x27;..&#x2F;&#x27;;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      3
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">import { requestApiToken } from &#x27;..&#x2F;..&#x2F;api&#x27;;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      4
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">import * as authActions from &#x27;..&#x2F;..&#x2F;actions&#x2F;auth&#x27;;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      5
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      6
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">describe(&#x27;redux saga&#x27;, () =&gt; {</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      7
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">  test(&#x27;should watch load access token flow&#x27;, () =&gt; {</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      8
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">    const mockQueryCode = { code: &#x27;fa8aa50f4a801cbb6d686309eafe3994&#x27; };</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      9
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">    const mockResponseData = {</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      10
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">      data: {</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      11
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">        access_token: &#x27;071785dd71832da26b273cf495aec8e8&#x27;,</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      12
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">        user: {</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      13
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">          id: 1,</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      14
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">          username: &#x27;neighrbohood999&#x27;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      15
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">        }</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      16
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">      }</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      17
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">    };</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      18
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">    const generator = watchLoadAccessToken();</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      19
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      20
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">    expect(generator.next().value).toEqual(</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      21
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">      take(authActions.REQUEST_ACCESSTOKEN)</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      22
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">    );</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      23
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      24
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">    expect(generator.next(mockQueryCode).value).toEqual(</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      25
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">      call(requestApiToken, &#x27;fa8aa50f4a801cbb6d686309eafe3994&#x27;)</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      26
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">    );</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      27
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      28
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">    const { data: { access_token, user } } = mockResponseData;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      29
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">    expect(generator.next(mockResponseData).value).toEqual(</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      30
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">      put(authActions.receiveAccessToken({ access_token, user }))</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      31
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">    );</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      32
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">  });</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      33
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">});</span>
+        </div>
+    </td>
+</tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
-    <div id=\\"d2h-239209\\" class=\\"d2h-file-wrapper\\" data-lang=\\"js\\">
-        <div class=\\"d2h-file-header\\">
-          <span class=\\"d2h-file-name-wrapper\\">
-        <span class=\\"d2h-icon-wrapper\\"><svg aria-hidden=\\"true\\" class=\\"d2h-icon\\" height=\\"16\\" version=\\"1.1\\" viewBox=\\"0 0 12 16\\" width=\\"12\\">
-        <path d=\\"M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z\\"></path>
-    </svg></span>
-        <span class=\\"d2h-file-name\\">sagas/index.js</span>
-        <span class=\\"d2h-tag d2h-changed d2h-changed-tag\\">CHANGED</span></span>
+</div>
+<div id=\\"d2h-239209\\" class=\\"d2h-file-wrapper\\" data-lang=\\"js\\">
+    <div class=\\"d2h-file-header\\">
+      <span class=\\"d2h-file-name-wrapper\\">
+    <span class=\\"d2h-icon-wrapper\\"><svg aria-hidden=\\"true\\" class=\\"d2h-icon\\" height=\\"16\\" version=\\"1.1\\" viewBox=\\"0 0 12 16\\" width=\\"12\\">
+    <path d=\\"M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z\\"></path>
+</svg></span>
+    <span class=\\"d2h-file-name\\">sagas/index.js</span>
+    <span class=\\"d2h-tag d2h-changed d2h-changed-tag\\">CHANGED</span></span>
+    </div>
+    <div class=\\"d2h-files-diff\\">
+        <div class=\\"d2h-file-side-diff\\">
+            <div class=\\"d2h-code-wrapper\\">
+                <table class=\\"d2h-diff-table\\">
+                    <tbody class=\\"d2h-diff-tbody\\">
+                    <tr>
+    <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
+    <td class=\\"d2h-info\\">
+        <div class=\\"d2h-code-side-line d2h-info\\">@@ -1,3 +1,17 @@</div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
         </div>
-        <div class=\\"d2h-files-diff\\">
-            <div class=\\"d2h-file-side-diff\\">
-                <div class=\\"d2h-code-wrapper\\">
-                    <table class=\\"d2h-diff-table\\">
-                        <tbody class=\\"d2h-diff-tbody\\">
-                        <tr>
-        <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
-        <td class=\\"d2h-info\\">
-            <div class=\\"d2h-code-side-line d2h-info\\">@@ -1,3 +1,17 @@</div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      1
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+            <span class=\\"d2h-code-line-prefix\\"> </span>
+            <span class=\\"d2h-code-line-ctn\\">export default function* rootSaga() {</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-del\\">
+      2
+    </td>
+    <td class=\\"d2h-del\\">
+        <div class=\\"d2h-code-side-line d2h-del\\">
+            <span class=\\"d2h-code-line-prefix\\">-</span>
+            <span class=\\"d2h-code-line-ctn\\">  <del>console.log(&#x27;root</del> <del>saga&#x27;);</del></span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      3
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+            <span class=\\"d2h-code-line-prefix\\"> </span>
+            <span class=\\"d2h-code-line-ctn\\">}</span>
+        </div>
+    </td>
+</tr>
+                    </tbody>
+                </table>
             </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          1
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-                <span class=\\"d2h-code-line-prefix\\"> </span>
-                <span class=\\"d2h-code-line-ctn\\">export default function* rootSaga() {</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-del\\">
-          2
-        </td>
-        <td class=\\"d2h-del\\">
-            <div class=\\"d2h-code-side-line d2h-del\\">
-                <span class=\\"d2h-code-line-prefix\\">-</span>
-                <span class=\\"d2h-code-line-ctn\\">  <del>console.log(&#x27;root</del> <del>saga&#x27;);</del></span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          3
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-                <span class=\\"d2h-code-line-prefix\\"> </span>
-                <span class=\\"d2h-code-line-ctn\\">}</span>
-            </div>
-        </td>
-    </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class=\\"d2h-file-side-diff\\">
-                <div class=\\"d2h-code-wrapper\\">
-                    <table class=\\"d2h-diff-table\\">
-                        <tbody class=\\"d2h-diff-tbody\\">
-                        <tr>
-        <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
-        <td class=\\"d2h-info\\">
-            <div class=\\"d2h-code-side-line d2h-info\\"></div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          1
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">import { all, call, take, put, fork } from &#x27;redux-saga&#x2F;effects&#x27;;</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          2
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">import { requestApiToken } from &#x27;..&#x2F;api&#x27;;</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          3
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">import * as actions from &#x27;..&#x2F;actions&#x2F;auth&#x27;;</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          4
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          5
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">export function* watchLoadAccessToken() {</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          6
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">  while (true) {</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          7
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">    const { code } = yield take(actions.REQUEST_ACCESSTOKEN);</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          8
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">    const { data: { access_token, user } } = yield call(requestApiToken, code);</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          9
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">    yield put(actions.receiveAccessToken({ access_token, user }));</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          10
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">  }</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          11
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">}</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          12
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          13
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-                <span class=\\"d2h-code-line-prefix\\"> </span>
-                <span class=\\"d2h-code-line-ctn\\">export default function* rootSaga() {</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          14
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">  <ins>yield</ins> <ins>all([</ins></span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          15
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">    fork(watchLoadAccessToken)</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          16
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\">  ]);</span>
-            </div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
-          17
-        </td>
-        <td class=\\"d2h-cntx\\">
-            <div class=\\"d2h-code-side-line d2h-cntx\\">
-                <span class=\\"d2h-code-line-prefix\\"> </span>
-                <span class=\\"d2h-code-line-ctn\\">}</span>
-            </div>
-        </td>
-    </tr>
-                        </tbody>
-                    </table>
-                </div>
+        </div>
+        <div class=\\"d2h-file-side-diff\\">
+            <div class=\\"d2h-code-wrapper\\">
+                <table class=\\"d2h-diff-table\\">
+                    <tbody class=\\"d2h-diff-tbody\\">
+                    <tr>
+    <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
+    <td class=\\"d2h-info\\">
+        <div class=\\"d2h-code-side-line d2h-info\\"></div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      1
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">import { all, call, take, put, fork } from &#x27;redux-saga&#x2F;effects&#x27;;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      2
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">import { requestApiToken } from &#x27;..&#x2F;api&#x27;;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      3
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">import * as actions from &#x27;..&#x2F;actions&#x2F;auth&#x27;;</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      4
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      5
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">export function* watchLoadAccessToken() {</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      6
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">  while (true) {</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      7
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">    const { code } = yield take(actions.REQUEST_ACCESSTOKEN);</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      8
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">    const { data: { access_token, user } } = yield call(requestApiToken, code);</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      9
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">    yield put(actions.receiveAccessToken({ access_token, user }));</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      10
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">  }</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      11
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">}</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      12
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      13
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+            <span class=\\"d2h-code-line-prefix\\"> </span>
+            <span class=\\"d2h-code-line-ctn\\">export default function* rootSaga() {</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      14
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">  <ins>yield</ins> <ins>all([</ins></span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      15
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">    fork(watchLoadAccessToken)</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      16
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\">  ]);</span>
+        </div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-cntx\\">
+      17
+    </td>
+    <td class=\\"d2h-cntx\\">
+        <div class=\\"d2h-code-side-line d2h-cntx\\">
+            <span class=\\"d2h-code-line-prefix\\"> </span>
+            <span class=\\"d2h-code-line-ctn\\">}</span>
+        </div>
+    </td>
+</tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
-    </div>",
+</div>
+</div>",
     }
   }
 />
@@ -1162,67 +1162,67 @@ exports[`should render \`past\` and \`current\` difference comparison result int
   dangerouslySetInnerHTML={
     Object {
       "__html": "<div class=\\"d2h-wrapper\\">
-        <div id=\\"d2h-502797\\" class=\\"d2h-file-wrapper\\" data-lang=\\"\\">
-        <div class=\\"d2h-file-header\\">
-          <span class=\\"d2h-file-name-wrapper\\">
-        <span class=\\"d2h-icon-wrapper\\"><svg aria-hidden=\\"true\\" class=\\"d2h-icon\\" height=\\"16\\" version=\\"1.1\\" viewBox=\\"0 0 12 16\\" width=\\"12\\">
-        <path d=\\"M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z\\"></path>
-    </svg></span>
-        <span class=\\"d2h-file-name\\">test.md</span>
-        <span class=\\"d2h-tag d2h-changed d2h-changed-tag\\">CHANGED</span></span>
+    <div id=\\"d2h-502797\\" class=\\"d2h-file-wrapper\\" data-lang=\\"\\">
+    <div class=\\"d2h-file-header\\">
+      <span class=\\"d2h-file-name-wrapper\\">
+    <span class=\\"d2h-icon-wrapper\\"><svg aria-hidden=\\"true\\" class=\\"d2h-icon\\" height=\\"16\\" version=\\"1.1\\" viewBox=\\"0 0 12 16\\" width=\\"12\\">
+    <path d=\\"M6 5H2v-1h4v1zM2 8h7v-1H2v1z m0 2h7v-1H2v1z m0 2h7v-1H2v1z m10-7.5v9.5c0 0.55-0.45 1-1 1H1c-0.55 0-1-0.45-1-1V2c0-0.55 0.45-1 1-1h7.5l3.5 3.5z m-1 0.5L8 2H1v12h10V5z\\"></path>
+</svg></span>
+    <span class=\\"d2h-file-name\\">test.md</span>
+    <span class=\\"d2h-tag d2h-changed d2h-changed-tag\\">CHANGED</span></span>
+    </div>
+    <div class=\\"d2h-files-diff\\">
+        <div class=\\"d2h-file-side-diff\\">
+            <div class=\\"d2h-code-wrapper\\">
+                <table class=\\"d2h-diff-table\\">
+                    <tbody class=\\"d2h-diff-tbody\\">
+                    <tr>
+    <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
+    <td class=\\"d2h-info\\">
+        <div class=\\"d2h-code-side-line d2h-info\\">@@ -1 +1 @@</div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-del\\">
+      1
+    </td>
+    <td class=\\"d2h-del\\">
+        <div class=\\"d2h-code-side-line d2h-del\\">
+            <span class=\\"d2h-code-line-prefix\\">-</span>
+            <span class=\\"d2h-code-line-ctn\\"><del>##</del> Hello</span>
         </div>
-        <div class=\\"d2h-files-diff\\">
-            <div class=\\"d2h-file-side-diff\\">
-                <div class=\\"d2h-code-wrapper\\">
-                    <table class=\\"d2h-diff-table\\">
-                        <tbody class=\\"d2h-diff-tbody\\">
-                        <tr>
-        <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
-        <td class=\\"d2h-info\\">
-            <div class=\\"d2h-code-side-line d2h-info\\">@@ -1 +1 @@</div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-del\\">
-          1
-        </td>
-        <td class=\\"d2h-del\\">
-            <div class=\\"d2h-code-side-line d2h-del\\">
-                <span class=\\"d2h-code-line-prefix\\">-</span>
-                <span class=\\"d2h-code-line-ctn\\"><del>##</del> Hello</span>
+    </td>
+</tr>
+                    </tbody>
+                </table>
             </div>
-        </td>
-    </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class=\\"d2h-file-side-diff\\">
-                <div class=\\"d2h-code-wrapper\\">
-                    <table class=\\"d2h-diff-table\\">
-                        <tbody class=\\"d2h-diff-tbody\\">
-                        <tr>
-        <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
-        <td class=\\"d2h-info\\">
-            <div class=\\"d2h-code-side-line d2h-info\\"></div>
-        </td>
-    </tr><tr>
-        <td class=\\"d2h-code-side-linenumber d2h-ins\\">
-          1
-        </td>
-        <td class=\\"d2h-ins\\">
-            <div class=\\"d2h-code-side-line d2h-ins\\">
-                <span class=\\"d2h-code-line-prefix\\">+</span>
-                <span class=\\"d2h-code-line-ctn\\"><ins>#</ins> Hello<ins> World</ins></span>
-            </div>
-        </td>
-    </tr>
-                        </tbody>
-                    </table>
-                </div>
+        </div>
+        <div class=\\"d2h-file-side-diff\\">
+            <div class=\\"d2h-code-wrapper\\">
+                <table class=\\"d2h-diff-table\\">
+                    <tbody class=\\"d2h-diff-tbody\\">
+                    <tr>
+    <td class=\\"d2h-code-side-linenumber d2h-info\\"></td>
+    <td class=\\"d2h-info\\">
+        <div class=\\"d2h-code-side-line d2h-info\\"></div>
+    </td>
+</tr><tr>
+    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+      1
+    </td>
+    <td class=\\"d2h-ins\\">
+        <div class=\\"d2h-code-side-line d2h-ins\\">
+            <span class=\\"d2h-code-line-prefix\\">+</span>
+            <span class=\\"d2h-code-line-ctn\\"><ins>#</ins> Hello<ins> World</ins></span>
+        </div>
+    </td>
+</tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
-    </div>",
+</div>
+</div>",
     }
   }
 />
