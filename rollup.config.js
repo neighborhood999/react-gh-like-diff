@@ -6,7 +6,7 @@ import nodeResolve from 'rollup-plugin-node-resolve';
 import css from 'rollup-plugin-css-porter';
 
 const config = {
-  entry: 'src/index.js',
+  input: 'src/index.js',
   external: ['react', 'prop-types', 'recompose', 'difflib'],
   globals: {
     react: 'React',
@@ -30,13 +30,13 @@ const config = {
     }),
     css({ dest: 'lib/diff2html.css' })
   ],
-  targets: [
-    { dest: pkg.main, format: 'cjs' },
-    { dest: pkg.module, format: 'es' },
+  output: [
+    { file: pkg.main, format: 'cjs' },
+    { file: pkg.module, format: 'es' },
     {
-      dest: pkg.umd,
+      file: pkg.umd,
       format: 'umd',
-      moduleName: 'react-gh-like-diff'
+      name: 'react-gh-like-diff'
     }
   ]
 };
