@@ -16,31 +16,29 @@ export const defaultOptions = {
 };
 
 const compare = ({ past, current, options }) => {
+  const updateOptions = { ...defaultOptions, ...options };
   const pastArray = past.split(/\r|\n|\r\n/);
   const currentArray = current.split(/\r|\n|\r\n/);
 
   const diffArray = unifiedDiff(pastArray, currentArray, {
-    fromFile: options.originalFileName,
-    toFile: options.updatedFileName
+    fromFile: updateOptions.originalFileName,
+    toFile: updateOptions.updatedFileName
   });
 
   const diffString = format(
     'diff --git %s %s\n%s',
-    options.originalFileName,
-    options.updatedFileName,
+    updateOptions.originalFileName,
+    updateOptions.updatedFileName,
     diffArray.join('\n')
   );
 
   return {
     diffString,
-    options
+    options: updateOptions
   };
 };
 
-export const genPrettyHtml = ({ diffString, options }) => {
-  const nextOptions = Object.assign({}, defaultOptions, options);
-
-  return getPrettyHtml(diffString, nextOptions);
-};
+export const genPrettyHtml = ({ diffString, options }) =>
+  getPrettyHtml(diffString, options);
 
 export default compose(genPrettyHtml, compare);
