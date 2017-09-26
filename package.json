@@ -82,7 +82,7 @@
     "bundlesize": "^0.14.2",
     "chalk-cli": "^4.0.0",
     "codecov": "^2.3.0",
-    "enzyme": "^2.9.1",
+    "enzyme": "^3.0.0",
     "eslint": "^4.4.1",
     "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-prettier": "^2.2.0",
