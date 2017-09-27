@@ -12,7 +12,11 @@
 
 > Generate Github like comparison based on [diff2html](https://github.com/rtfpessoa/diff2html).
 
-You can compare string or given `.diff` file to generate pretty HTML.
+You can compare string or given [unified diff](http://www.gnu.org/software/diffutils/manual/html_node/Example-Unified.html#Example-Unified) to generate pretty HTML.
+
+## Demo
+
+[See CodeSanbox](https://jnrwm63lxv.codesandbox.io/)
 
 ## Installation
 
@@ -30,17 +34,29 @@ You can set diff2html **extra options**, reference is [here](https://github.com/
 
 ## Props
 
-#### past: string
-	Passing past string as `past` prop with `current` prop for comparison.
+### past
 
-#### current: string
-	Passing current string as `current` prop with `past` prop for comparison.
+> `string` | defaults to `''`
 
-#### diffString: string
-	Passing .diff file content as prop to generatet prtty HTML.
+Passing past string as `past` prop with `current` prop for comparison.
 
-#### ?options: Object
-	Reference diff2html docs for extra configuration setting.
+### current
+
+> `string` | defaults to `''`
+
+Passing current string as `current` prop with `past` prop for comparison.
+
+### diffString
+
+> `string` | defaults to `''`
+
+Passing unified diff as prop to generate pretty HTML.
+
+### options
+
+> `object` | optional, See [here](https://github.com/neighborhood999/react-gh-like-diff/blob/master/src/utils.js#L7)
+
+Reference diff2html docs for [extra configuration](https://github.com/rtfpessoa/diff2html#configuration) setting.
 
 ## Inspiration
 
