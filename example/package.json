@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-gh-like-diff": "^0.0.78"
+    "react-gh-like-diff": "^0.0.78",
+    "sweetalert": "^2.0.3"
   },
   "devDependencies": {
     "axios": "^0.16.2",
