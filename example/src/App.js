@@ -58,6 +58,16 @@ class App extends React.Component {
             </div>
           </div>
           <div className="col-md-12">
+            <blockquote>
+              <p>Example Pull Request URL</p>
+              <ul>
+                <li>
+                  <code>
+                    https://github.com/neighborhood999/react-gh-like-diff/pull/23
+                  </code>
+                </li>
+              </ul>
+            </blockquote>
             <div className="input-group">
               <input
                 type="text"
