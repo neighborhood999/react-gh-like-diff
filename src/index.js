@@ -11,8 +11,9 @@ import {
 } from 'recompose';
 import 'diff2html/dist/diff2html.css';
 
-export const RenderDiffResult = ({ genDiffHTML }) =>
-  <div dangerouslySetInnerHTML={{ __html: genDiffHTML }} />;
+export const RenderDiffResult = ({ genDiffHTML }) => (
+  <div dangerouslySetInnerHTML={{ __html: genDiffHTML }} />
+);
 
 export default compose(
   defaultProps({
