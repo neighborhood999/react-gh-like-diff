@@ -28,19 +28,19 @@ class App extends React.Component {
     }
   };
 
+  fetchResult = (url, type) => {
+    try {
+      this.fetchGithubAPI(githubUrlRegex(this.state.regexFn[type], url), type);
+    } catch (err) {
+      swal('Oops!', 'Check your url and select correct type.', 'error');
+    }
+  };
+
   handleInput = event => {
     if (event.keyCode === 13) {
       const url = event.target.value;
       const type = this.state.type;
-
-      try {
-        this.fetchGithubAPI(
-          githubUrlRegex(this.state.regexFn[type], url),
-          type
-        );
-      } catch (err) {
-        swal('Oops!', 'Check your url and select correct type.', 'error');
-      }
+      this.fetchResult(url, type);
     }
 
     return;
@@ -49,14 +49,9 @@ class App extends React.Component {
   handleClick = e => {
     e.preventDefault();
 
-    const type = this.state.type;
     const url = this.textURL.value;
-
-    try {
-      this.fetchGithubAPI(githubUrlRegex(this.state.regexFn[type], url), type);
-    } catch (err) {
-      swal('Oops!', 'Check your url and select correct type.', 'error');
-    }
+    const type = this.state.type;
+    this.fetchResult(url, type);
   };
 
   handleChange = e => this.setState({ type: e.target.value });
