@@ -1,5 +1,6 @@
 // Ref: https://github.com/rtfpessoa/diff2html/blob/master/website/templates/pages/demo/demo.js
 
-const githubPrUrl = /^https?:\/\/(?:www\.)?github\.com\/(.*?)\/(.*?)\/pull\/(.*?)(?:\.diff)?(?:\.patch)?(?:\/.*)?$/;
+export const githubPrUrl = /^https?:\/\/(?:www\.)?github\.com\/(.*?)\/(.*?)\/pull\/(.*?)(?:\.diff)?(?:\.patch)?(?:\/.*)?$/;
+export const githubCommitUrl = /^https?:\/\/(?:www\.)?github\.com\/(.*?)\/(.*?)\/commit\/(.*?)(?:\.diff)?(?:\.patch)?(?:\/.*)?$/;
 
-export const githubPrUrlGen = url => githubPrUrl.exec(url);
+export const githubUrlRegex = (fn, url) => fn.exec(url);

@@ -2,11 +2,16 @@ import React from 'react';
 import GithubLikeDiff from 'react-gh-like-diff';
 import axios from 'axios';
 import swal from 'sweetalert';
-import { githubPrUrlGen } from './utils';
+import { githubPrUrl, githubCommitUrl, githubUrlRegex } from './utils';
 
 class App extends React.Component {
   state = {
-    diffString: ''
+    diffString: '',
+    type: 'pulls',
+    regexFn: {
+      pulls: githubPrUrl,
+      commits: githubCommitUrl
+    }
   };
 
   fetchGithubAPI = async ([, userName, repoName, value], type) => {
@@ -26,11 +31,15 @@ class App extends React.Component {
   handleInput = event => {
     if (event.keyCode === 13) {
       const url = event.target.value;
+      const type = this.state.type;
 
       try {
-        this.fetchGithubAPI(githubPrUrlGen(url), 'pulls');
+        this.fetchGithubAPI(
+          githubUrlRegex(this.state.regexFn[type], url),
+          type
+        );
       } catch (err) {
-        swal('Oops!', 'Please Enter Pull Request URL.', 'error');
+        swal('Oops!', 'Check your url and select correct type.', 'error');
       }
     }
 
@@ -40,13 +49,17 @@ class App extends React.Component {
   handleClick = e => {
     e.preventDefault();
 
+    const type = this.state.type;
     const url = this.textURL.value;
+
     try {
-      this.fetchGithubAPI(githubPrUrlGen(url), 'pulls');
+      this.fetchGithubAPI(githubUrlRegex(this.state.regexFn[type], url), type);
     } catch (err) {
-      swal('Oops!', 'Please Enter Pull Request URL.', 'error');
+      swal('Oops!', 'Check your url and select correct type.', 'error');
     }
   };
+
+  handleChange = e => this.setState({ type: e.target.value });
 
   render() {
     return (
@@ -59,15 +72,32 @@ class App extends React.Component {
           </div>
           <div className="col-md-12">
             <blockquote>
-              <p>Example Pull Request URL</p>
+              <p>Example Pull Request & Commit URL</p>
               <ul>
                 <li>
                   <code>
                     https://github.com/neighborhood999/react-gh-like-diff/pull/23
                   </code>
                 </li>
+                <li>
+                  <code>
+                    https://github.com/neighborhood999/react-gh-like-diff/commit/be869e64071ef665c1bb8daee935a00120075d24
+                  </code>
+                </li>
               </ul>
             </blockquote>
+          </div>
+          <div className="col-md-2">
+            <select
+              className="form-control"
+              value={this.state.type}
+              onChange={this.handleChange}
+            >
+              <option value="pulls">PR</option>
+              <option value="commits">Commit</option>
+            </select>
+          </div>
+          <div className="col-md-10">
             <div className="input-group">
               <input
                 type="text"
