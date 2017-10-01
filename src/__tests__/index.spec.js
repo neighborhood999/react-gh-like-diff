@@ -9,7 +9,12 @@ test('should render innerHTML by dangerouslySetInnerHTML', () => {
   const html = '<h1>Hello World</h1>';
   const wrapper = mount(<RenderDiffResult genDiffHTML={html} />);
 
-  expect(wrapper.render().find('h1').text()).toBe('Hello World');
+  expect(
+    wrapper
+      .render()
+      .find('h1')
+      .text()
+  ).toBe('Hello World');
 });
 
 test('should render `past` and `current` difference comparison result into HTML', () => {

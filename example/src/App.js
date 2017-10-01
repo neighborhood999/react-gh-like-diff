@@ -1,37 +1,40 @@
 import React from 'react';
 import GithubLikeDiff from 'react-gh-like-diff';
-import axios from 'axios';
 import swal from 'sweetalert';
-import { githubPrUrlGen } from './utils';
+import {
+  githubPrUrl,
+  githubCommitUrl,
+  githubUrlRegex,
+  fetchGithubAPI
+} from './utils';
 
 class App extends React.Component {
   state = {
-    diffString: ''
+    diffString: '',
+    type: 'pulls',
+    regexFn: {
+      pulls: githubPrUrl,
+      commits: githubCommitUrl
+    }
   };
 
-  fetchGithubAPI = async ([, userName, repoName, value], type) => {
-    const githubUrlGen = `https://api.github.com/repos/${userName}/${repoName}/${type}/${value}`;
-
+  fetchResult = async (url, type) => {
     try {
-      const { data } = await axios.get(githubUrlGen, {
-        headers: { Accept: 'application/vnd.github.v3.diff' }
-      });
-
+      const { data } = await fetchGithubAPI(
+        githubUrlRegex(this.state.regexFn[type], url),
+        type
+      );
       this.setState((prevStates, props) => ({ diffString: data }));
     } catch (err) {
-      swal('Oops!', `Seems like we couldn't fetch the info`, 'error');
+      swal('Oops!', 'Check your url and select correct type.', 'error');
     }
   };
 
   handleInput = event => {
     if (event.keyCode === 13) {
       const url = event.target.value;
-
-      try {
-        this.fetchGithubAPI(githubPrUrlGen(url), 'pulls');
-      } catch (err) {
-        swal('Oops!', 'Please Enter Pull Request URL.', 'error');
-      }
+      const type = this.state.type;
+      this.fetchResult(url, type);
     }
 
     return;
@@ -41,12 +44,11 @@ class App extends React.Component {
     e.preventDefault();
 
     const url = this.textURL.value;
-    try {
-      this.fetchGithubAPI(githubPrUrlGen(url), 'pulls');
-    } catch (err) {
-      swal('Oops!', 'Please Enter Pull Request URL.', 'error');
-    }
+    const type = this.state.type;
+    this.fetchResult(url, type);
   };
+
+  handleChange = e => this.setState({ type: e.target.value });
 
   render() {
     return (
@@ -59,15 +61,32 @@ class App extends React.Component {
           </div>
           <div className="col-md-12">
             <blockquote>
-              <p>Example Pull Request URL</p>
+              <p>Example Pull Request & Commit URL</p>
               <ul>
                 <li>
                   <code>
                     https://github.com/neighborhood999/react-gh-like-diff/pull/23
                   </code>
                 </li>
+                <li>
+                  <code>
+                    https://github.com/neighborhood999/react-gh-like-diff/commit/be869e64071ef665c1bb8daee935a00120075d24
+                  </code>
+                </li>
               </ul>
             </blockquote>
+          </div>
+          <div className="col-md-2">
+            <select
+              className="form-control"
+              value={this.state.type}
+              onChange={this.handleChange}
+            >
+              <option value="pulls">PR</option>
+              <option value="commits">Commit</option>
+            </select>
+          </div>
+          <div className="col-md-10">
             <div className="input-group">
               <input
                 type="text"
