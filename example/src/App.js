@@ -1,8 +1,12 @@
 import React from 'react';
 import GithubLikeDiff from 'react-gh-like-diff';
-import axios from 'axios';
 import swal from 'sweetalert';
-import { githubPrUrl, githubCommitUrl, githubUrlRegex } from './utils';
+import {
+  githubPrUrl,
+  githubCommitUrl,
+  githubUrlRegex,
+  fetchGithubAPI
+} from './utils';
 
 class App extends React.Component {
   state = {
@@ -14,23 +18,13 @@ class App extends React.Component {
     }
   };
 
-  fetchGithubAPI = async ([, userName, repoName, value], type) => {
-    const githubUrlGen = `https://api.github.com/repos/${userName}/${repoName}/${type}/${value}`;
-
+  fetchResult = async (url, type) => {
     try {
-      const { data } = await axios.get(githubUrlGen, {
-        headers: { Accept: 'application/vnd.github.v3.diff' }
-      });
-
+      const { data } = await fetchGithubAPI(
+        githubUrlRegex(this.state.regexFn[type], url),
+        type
+      );
       this.setState((prevStates, props) => ({ diffString: data }));
-    } catch (err) {
-      swal('Oops!', `Seems like we couldn't fetch the info`, 'error');
-    }
-  };
-
-  fetchResult = (url, type) => {
-    try {
-      this.fetchGithubAPI(githubUrlRegex(this.state.regexFn[type], url), type);
     } catch (err) {
       swal('Oops!', 'Check your url and select correct type.', 'error');
     }
