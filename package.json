@@ -26,7 +26,9 @@
     "prepublish": "npm run build"
   },
   "jest": {
-    "setupFiles": ["<rootDir>/src/__tests__/setup.js"],
+    "setupFiles": [
+      "<rootDir>/src/__tests__/setup.js"
+    ],
     "collectCoverage": true,
     "coverageDirectory": "./coverage/",
     "testMatch": [
