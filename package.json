@@ -26,10 +26,13 @@
     "prepublish": "npm run build"
   },
   "jest": {
+    "setupFiles": [
+      "<rootDir>/src/__tests__/setup.js"
+    ],
     "collectCoverage": true,
     "coverageDirectory": "./coverage/",
     "testMatch": [
-      "<rootDir>/src/**/__tests__/*.spec.js"
+      "<rootDir>/src/__tests__/*.spec.js"
     ],
     "moduleNameMapper": {
       "^.+\\.(css)$": "<rootDir>/src/__tests__/stub.js"
@@ -83,6 +86,7 @@
     "chalk-cli": "^4.0.0",
     "codecov": "^2.3.0",
     "enzyme": "^3.0.0",
+    "enzyme-adapter-react-15": "^1.0.1",
     "eslint": "^4.4.1",
     "eslint-config-prettier": "^2.6.0",
     "eslint-plugin-prettier": "^2.3.1",
