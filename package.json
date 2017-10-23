@@ -84,7 +84,7 @@
     "babel-preset-react": "^6.24.1",
     "bundlesize": "^0.15.2",
     "chalk-cli": "^4.0.0",
-    "codecov": "^2.3.0",
+    "codecov": "^3.0.0",
     "enzyme": "^3.0.0",
     "enzyme-adapter-react-15": "^1.0.1",
     "eslint": "^4.4.1",
