@@ -27,8 +27,7 @@
   },
   "jest": {
     "setupFiles": [
-      "<rootDir>/src/__tests__/setup.js",
-      "<rootDir>/src/__tests__/shim.js"
+      "<rootDir>/src/__tests__/setup.js"
     ],
     "collectCoverage": true,
     "coverageDirectory": "./coverage/",
@@ -94,7 +93,7 @@
     "eslint-plugin-react": "^7.4.0",
     "gzip-size-cli": "^2.0.0",
     "husky": "^0.14.3",
-    "jest": "^21.2.0",
+    "jest": "^21.3.0-beta.4",
     "lint-staged": "^4.0.3",
     "npm-run-all": "^4.0.2",
     "prettier": "^1.7.2",
