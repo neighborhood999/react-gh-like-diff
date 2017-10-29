@@ -30,7 +30,7 @@ test('should render `past` and `current` difference comparison result into HTML'
   );
 
   expect(wrapper.name()).toBe(
-    'defaultProps(onlyUpdateForPropTypes(branch(Component)))'
+    'defaultProps(onlyUpdateForPropTypes(branch(RenderDiffResult)))'
   );
 
   const tree = renderer
@@ -45,7 +45,7 @@ test('should render `.diff` file content to HTML', () => {
   const wrapper = mount(<ReactGhLikeDiff diffString={fileContent} />);
 
   expect(wrapper.name()).toBe(
-    'defaultProps(onlyUpdateForPropTypes(branch(Component)))'
+    'defaultProps(onlyUpdateForPropTypes(branch(RenderDiffResult)))'
   );
 
   const tree = renderer
