@@ -1,13 +1,13 @@
 {
 	"plugins": ["transform-object-rest-spread"],
 	"presets": [
-		["es2015", { "modules": false, "loose": true }],
+		["env", { "modules": false, "loose": true }],
 		"react"
 	],
 	"env": {
 		"test": {
 			"presets": [
-				["es2015", { "loose": true }],
+				["env", { "loose": true }],
 				"react"
 			]
 		}

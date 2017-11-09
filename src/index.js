@@ -15,7 +15,7 @@ export const RenderDiffResult = ({ genDiffHTML }) => (
   <div dangerouslySetInnerHTML={{ __html: genDiffHTML }} />
 );
 
-export default compose(
+export const ReactGhLikeDiff = compose(
   defaultProps({
     diffString: '',
     past: '',
