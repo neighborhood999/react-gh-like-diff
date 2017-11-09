@@ -1,5 +1,5 @@
 import React from 'react';
-import GithubLikeDiff from 'react-gh-like-diff';
+import { ReactGhLikeDiff } from 'react-gh-like-diff';
 import swal from 'sweetalert';
 import {
   githubPrUrl,
@@ -109,7 +109,7 @@ class App extends React.Component {
             <hr />
           </div>
           <div className="col-md-12">
-            <GithubLikeDiff diffString={this.state.diffString} />
+            <ReactGhLikeDiff diffString={this.state.diffString} />
           </div>
         </div>
       </div>
