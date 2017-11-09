@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow, mount } from 'enzyme';
 import renderer from 'react-test-renderer';
 import { readFileSync } from 'fs';
-import ReactGhLikeDiff, { RenderDiffResult } from '../index';
+import { ReactGhLikeDiff, RenderDiffResult } from '../index';
 import { defaultOptions } from '../utils';
 
 test('should render innerHTML by dangerouslySetInnerHTML', () => {
