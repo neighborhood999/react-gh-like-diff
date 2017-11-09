@@ -16,7 +16,7 @@ You can compare string or given [unified diff](http://www.gnu.org/software/diffu
 
 ## Demo
 
-[See Example Folder](https://github.com/neighborhood999/react-gh-like-diff/tree/master/example)
+[CodeSandbox](https://01mj5j2qv0.codesandbox.io/)
 
 ## Installation
 
