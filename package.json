@@ -94,7 +94,7 @@
     "gzip-size-cli": "^2.0.0",
     "husky": "^0.14.3",
     "jest": "^21.3.0-beta.4",
-    "lint-staged": "^4.0.3",
+    "lint-staged": "^5.0.0",
     "npm-run-all": "^4.0.2",
     "prettier": "^1.7.2",
     "react": "^16.0.0",
