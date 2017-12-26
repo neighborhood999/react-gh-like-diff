@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/react-gh-like-diff.svg?style=flat-square)](https://www.npmjs.com/package/react-gh-like-diff)
 [![Build Status](https://img.shields.io/travis/neighborhood999/react-gh-like-diff.svg?style=flat-square)](https://travis-ci.org/neighborhood999/react-gh-like-diff)
-[![Code Climate](https://img.shields.io/codeclimate/github/kabisaict/flow.svg?style=flat-square)](https://codeclimate.com/github/neighborhood999/react-gh-like-diff)
+[![Maintainability](https://api.codeclimate.com/v1/badges/4cff540dfa1df3feadd3/maintainability)](https://codeclimate.com/github/neighborhood999/react-gh-like-diff/maintainability)
 [![codecov](https://img.shields.io/codecov/c/github/neighborhood999/react-gh-like-diff.svg?style=flat-square)](https://codecov.io/gh/neighborhood999/react-gh-like-diff)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 ![](https://img.shields.io/badge/gzip-3%20kB-brightgreen.svg?style=flat-square)
