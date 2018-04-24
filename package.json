@@ -71,7 +71,7 @@
     "diff2html": "^2.3.0",
     "difflib": "^0.2.4",
     "prop-types": "^15.5.10",
-    "recompose": "^0.26.0"
+    "recompose": "^0.27.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -80,7 +80,7 @@
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-minify": "^0.3.0",
+    "babel-preset-minify": "^0.4.0",
     "babel-preset-react": "^6.24.1",
     "bundlesize": "^0.17.0",
     "chalk-cli": "^4.0.0",
@@ -101,9 +101,9 @@
     "react-dom": "^16.0.0",
     "react-test-renderer": "^16.0.0",
     "rimraf": "^2.6.1",
-    "rollup": "^0.55.1",
+    "rollup": "^0.58.2",
     "rollup-plugin-babel": "^3.0.1",
-    "rollup-plugin-commonjs": "^8.2.4",
+    "rollup-plugin-commonjs": "^9.1.0",
     "rollup-plugin-css-porter": "^0.1.2",
     "rollup-plugin-node-builtins": "^2.1.2",
     "rollup-plugin-node-resolve": "^3.0.0",
