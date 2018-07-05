@@ -91,7 +91,7 @@
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.8.2",
-    "gzip-size-cli": "^2.1.0",
+    "gzip-size-cli": "^3.0.0",
     "husky": "^0.14.3",
     "jest": "^23.0.1",
     "lint-staged": "^7.1.2",
