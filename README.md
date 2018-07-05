@@ -17,7 +17,7 @@ You can compare string or given [unified diff](http://www.gnu.org/software/diffu
 
 ## Demo
 
-[CodeSandbox](https://01mj5j2qv0.codesandbox.io/)
+[![Edit React Github Like Diff Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/qvx7438xo6)
 
 ## Installation
 
