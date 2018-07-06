@@ -31,7 +31,22 @@ npm install react-gh-like-diff --save
 
 ## Configuration
 
-You can set diff2html **extra options**, reference is [here](https://github.com/rtfpessoa/diff2html#configuration) :mag_right:.
+[react-gh-like-diff](https://github.com/neighborhood999/react-gh-like-diff) is based on [diff2html](https://github.com/rtfpessoa/diff2html). The default configuration:
+
+```js
+const defaultOptions = {
+  originalFileName: 'Unknown-File-Name',
+  updatedFileName: 'Unknown-File-Name',
+  inputFormat: 'diff',
+  outputFormat: 'side-by-side',
+  showFiles: false,
+  matching: 'none',
+  matchWordsThreshold: 0.25,
+  matchingMaxComparisons: 2500
+};
+```
+
+You can custom options for you want, just pass `options` as props. The configuration you can reference [here](https://github.com/rtfpessoa/diff2html#configuration). :mag_right:
 
 ## Props
 
