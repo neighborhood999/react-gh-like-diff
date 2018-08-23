@@ -1,13 +1,13 @@
 # react-gh-like-diff
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/neighborhood999/react-gh-like-diff.svg?style=flat-square)](https://greenkeeper.io/)
-[![npm](https://img.shields.io/npm/v/react-gh-like-diff.svg?style=flat-square)](https://www.npmjs.com/package/react-gh-like-diff)
-[![Build Status](https://img.shields.io/travis/neighborhood999/react-gh-like-diff.svg?style=flat-square)](https://travis-ci.org/neighborhood999/react-gh-like-diff)
+[![npm](https://flat.badgen.net/npm/v/react-gh-like-diff)](https://www.npmjs.com/package/react-gh-like-diff)
+[![Build Status](https://flat.badgen.net/travis/neighborhood999/react-gh-like-diff)](https://travis-ci.org/neighborhood999/react-gh-like-diff)
 [![Maintainability](https://api.codeclimate.com/v1/badges/4cff540dfa1df3feadd3/maintainability)](https://codeclimate.com/github/neighborhood999/react-gh-like-diff/maintainability)
-[![codecov](https://img.shields.io/codecov/c/github/neighborhood999/react-gh-like-diff.svg?style=flat-square)](https://codecov.io/gh/neighborhood999/react-gh-like-diff)
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-![](https://img.shields.io/badge/gzip-3%20kB-brightgreen.svg?style=flat-square)
-![](https://img.shields.io/badge/module%20formats-cjs%2C%20esm%2C%20umd-green.svg?style=flat-square)
+[![codecov](https://flat.badgen.net/codecov/c/github/neighborhood999/react-gh-like-diff)](https://codecov.io/gh/neighborhood999/react-gh-like-diff)
+[![styled with prettier](https://flat.badgen.net/badge/style%20with/prettier/ff69b4)](https://github.com/prettier/prettier)
+![](https://flat.badgen.net/badge/gzip/3%20kB/green)
+![](https://flat.badgen.net/badge/module%20formats/cjs%2C%20esm%2C%20umd/green)
 
 ![react-gh-like-diff](./screenshot/diff-demo.png)
 
