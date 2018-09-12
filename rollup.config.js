@@ -20,15 +20,12 @@ const config = {
   plugins: [
     babel({
       exclude: 'node_modules/**',
-      plugins: ['external-helpers']
+      plugins: ['@babel/plugin-external-helpers'],
+      externalHelpers: true
     }),
     builtins(),
-    nodeResolve({
-      jsnext: true
-    }),
-    commonjs({
-      include: 'node_modules/**'
-    }),
+    nodeResolve({ jsnext: true }),
+    commonjs({ include: 'node_modules/**' }),
     css({ dest: 'lib/diff2html.css' })
   ],
   output: [

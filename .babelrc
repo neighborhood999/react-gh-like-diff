@@ -1,14 +1,14 @@
 {
-	"plugins": ["transform-object-rest-spread"],
+	"plugins": ["@babel/plugin-proposal-object-rest-spread"],
 	"presets": [
-		["env", { "modules": false, "loose": true }],
-		"react"
+		["@babel/preset-env", { "modules": false, "loose": true }],
+		"@babel/preset-react"
 	],
 	"env": {
 		"test": {
 			"presets": [
-				["env", { "loose": true }],
-				"react"
+				["@babel/preset-env", { "loose": true }],
+				"@babel/preset-react"
 			]
 		}
 	}
