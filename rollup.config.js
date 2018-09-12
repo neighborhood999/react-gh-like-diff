@@ -5,8 +5,7 @@ import commonjs from 'rollup-plugin-commonjs';
 import nodeResolve from 'rollup-plugin-node-resolve';
 import css from 'rollup-plugin-css-porter';
 
-const exportsOpt = 'named';
-const globalsOpt = {
+const globals = {
   react: 'React',
   'prop-types': 'PropTypes',
   recompose: 'recompose',
@@ -20,28 +19,33 @@ const config = {
   plugins: [
     babel({
       exclude: 'node_modules/**',
-      plugins: ['@babel/plugin-external-helpers'],
-      externalHelpers: true
+      runtimeHelpers: true,
+      plugins: ['@babel/plugin-transform-runtime']
     }),
     builtins(),
-    nodeResolve({ jsnext: true }),
+    nodeResolve(),
     commonjs({ include: 'node_modules/**' }),
     css({ dest: 'lib/diff2html.css' })
   ],
   output: [
-    { file: pkg.main, format: 'cjs', exports: exportsOpt, globals: globalsOpt },
+    {
+      file: pkg.main,
+      format: 'cjs',
+      exports: 'named',
+      globals
+    },
     {
       file: pkg.module,
       format: 'es',
-      exports: exportsOpt,
-      globals: globalsOpt
+      exports: 'named',
+      globals
     },
     {
       file: pkg.umd,
       format: 'umd',
       name: 'react-gh-like-diff',
-      exports: exportsOpt,
-      globals: globalsOpt
+      exports: 'named',
+      globals
     }
   ]
 };
