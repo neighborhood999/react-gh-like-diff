@@ -23,8 +23,8 @@ const compare = ({ past, current, options }) => {
   const currentArray = current.split(/\r|\n|\r\n/);
 
   const diffArray = unifiedDiff(pastArray, currentArray, {
-    fromFile: updateOptions.originalFileName,
-    toFile: updateOptions.updatedFileName
+    fromfile: updateOptions.originalFileName,
+    tofile: updateOptions.updatedFileName
   });
 
   const diffString = format(
