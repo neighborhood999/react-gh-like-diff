@@ -18,25 +18,25 @@ export const defaultOptions = {
 };
 
 const compare = ({ past, current, options }) => {
-  const updateOptions = { ...defaultOptions, ...options };
+  const nextOptions = { ...defaultOptions, ...options };
   const pastArray = past.split(/\r|\n|\r\n/);
   const currentArray = current.split(/\r|\n|\r\n/);
 
   const diffArray = unifiedDiff(pastArray, currentArray, {
-    fromfile: updateOptions.originalFileName,
-    tofile: updateOptions.updatedFileName
+    fromfile: nextOptions.originalFileName,
+    tofile: nextOptions.updatedFileName
   });
 
   const diffString = format(
     'diff --git %s %s\n%s',
-    updateOptions.originalFileName,
-    updateOptions.updatedFileName,
+    nextOptions.originalFileName,
+    nextOptions.updatedFileName,
     diffArray.join('\n')
   );
 
   return {
     diffString,
-    options: updateOptions
+    options: nextOptions
   };
 };
 
