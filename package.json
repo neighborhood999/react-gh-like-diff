@@ -17,9 +17,7 @@
     "minify:esm": "babel --env=production --presets=minify $npm_package_module -o $npm_package_module",
     "minify:umd": "uglifyjs $npm_package_umd -c warnings=false -m toplevel -o $npm_package_umd",
     "size": "bundlesize",
-    "lint": "eslint src",
-    "prepush": "npm run test",
-    "prepublish": "npm run build"
+    "lint": "eslint src"
   },
   "jest": {
     "setupFiles": [
