@@ -4,45 +4,41 @@ import builtins from 'rollup-plugin-node-builtins';
 import commonjs from 'rollup-plugin-commonjs';
 import nodeResolve from 'rollup-plugin-node-resolve';
 import css from 'rollup-plugin-css-porter';
+import { sizeSnapshot } from 'rollup-plugin-size-snapshot';
 
-const globals = {
-  react: 'React',
-  'prop-types': 'PropTypes',
-  recompose: 'recompose',
-  difflib: 'difflib',
-  util: 'util'
-};
+const babelOptions = useESMoudles => ({
+  exclude: 'node/modules/**',
+  runtimeHelpers: true,
+  plugins: [['@babel/plugin-transform-runtime', { useESMoudles }]]
+});
 
-const config = {
+const baseConfig = {
   input: 'src/index.js',
   external: ['react', 'prop-types', 'recompose', 'difflib'],
   plugins: [
-    babel({
-      exclude: 'node_modules/**',
-      plugins: ['@babel/plugin-external-helpers'],
-      externalHelpers: true
-    }),
     builtins(),
     nodeResolve({ jsnext: true }),
     commonjs({ include: 'node_modules/**' }),
-    css({ dest: 'lib/diff2html.css' })
-  ],
-  output: [
-    { file: pkg.main, format: 'cjs', exports: 'named', globals },
-    {
-      file: pkg.module,
-      format: 'es',
-      exports: 'named',
-      globals
-    },
-    {
-      file: pkg.umd,
-      format: 'umd',
-      name: 'react-gh-like-diff',
-      exports: 'named',
-      globals
-    }
+    css({ dest: 'lib/diff2html.css' }),
+    sizeSnapshot()
   ]
 };
 
-export default config;
+export default [
+  {
+    ...baseConfig,
+    output: { file: pkg.main, format: 'cjs' },
+    plugins: [
+      babel(babelOptions({ useESModules: false })),
+      ...baseConfig.plugins
+    ]
+  },
+  {
+    ...baseConfig,
+    output: { file: pkg.module, format: 'es' },
+    plugins: [
+      babel(babelOptions({ useESModules: true })),
+      ...baseConfig.plugins
+    ]
+  }
+];

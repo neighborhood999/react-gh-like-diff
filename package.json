@@ -5,7 +5,6 @@
   "main": "lib/react-gh-like-diff.cjs.js",
   "module": "es/react-gh-like-diff.esm.js",
   "jsnext:main": "es/react-gh-like-diff.esm.js",
-  "umd": "dist/react-gh-like-diff.umd.js",
   "scripts": {
     "test": "npm run lint && jest",
     "test:watch": "npm test -- --watch",
@@ -15,7 +14,6 @@
     "rollup": "npm run clean && rollup -c",
     "minify:cjs": "uglifyjs $npm_package_main -cm toplevel -o $npm_package_main",
     "minify:esm": "babel --env=production --presets=minify $npm_package_module -o $npm_package_module",
-    "minify:umd": "uglifyjs $npm_package_umd -c warnings=false -m toplevel -o $npm_package_umd",
     "size": "bundlesize",
     "lint": "eslint src"
   },
@@ -70,8 +68,8 @@
   "devDependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.5",
-    "@babel/plugin-external-helpers": "^7.0.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
     "@babel/preset-env": "^7.1.5",
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
@@ -101,6 +99,7 @@
     "rollup-plugin-css-porter": "^0.1.2",
     "rollup-plugin-node-builtins": "^2.1.2",
     "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-size-snapshot": "^0.7.0",
     "uglify-js": "^3.4.9"
   },
   "peerDependencies": {
