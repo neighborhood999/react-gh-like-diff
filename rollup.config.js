@@ -6,16 +6,23 @@ import nodeResolve from 'rollup-plugin-node-resolve';
 import css from 'rollup-plugin-css-porter';
 import { sizeSnapshot } from 'rollup-plugin-size-snapshot';
 
-const babelOptions = useESMoudles => ({
-  exclude: 'node/modules/**',
-  runtimeHelpers: true,
-  plugins: [['@babel/plugin-transform-runtime', { useESMoudles }]]
-});
+const globals = {
+  react: 'React',
+  'prop-types': 'PropTypes',
+  recompose: 'recompose',
+  difflib: 'difflib',
+  util: 'util'
+};
 
 const baseConfig = {
   input: 'src/index.js',
   external: ['react', 'prop-types', 'recompose', 'difflib'],
   plugins: [
+    babel({
+      exclude: 'node_modules/**',
+      plugins: ['@babel/plugin-external-helpers'],
+      externalHelpers: true
+    }),
     builtins(),
     nodeResolve({ jsnext: true }),
     commonjs({ include: 'node_modules/**' }),
@@ -27,18 +34,14 @@ const baseConfig = {
 export default [
   {
     ...baseConfig,
-    output: { file: pkg.main, format: 'cjs' },
-    plugins: [
-      babel(babelOptions({ useESModules: false })),
-      ...baseConfig.plugins
-    ]
+    output: { file: pkg.main, format: 'cjs' }
   },
   {
     ...baseConfig,
-    output: { file: pkg.module, format: 'es' },
-    plugins: [
-      babel(babelOptions({ useESModules: true })),
-      ...baseConfig.plugins
-    ]
+    output: { file: pkg.module, format: 'es' }
+  },
+  {
+    ...baseConfig,
+    output: { file: pkg.umd, name: 'ReactGhLikeDiff', format: 'umd', globals }
   }
 ];

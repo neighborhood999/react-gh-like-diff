@@ -5,6 +5,7 @@
   "main": "lib/react-gh-like-diff.cjs.js",
   "module": "es/react-gh-like-diff.esm.js",
   "jsnext:main": "es/react-gh-like-diff.esm.js",
+  "umd": "dist/react-gh-like-diff.umd.js",
   "scripts": {
     "test": "npm run lint && jest",
     "test:watch": "npm test -- --watch",
@@ -68,8 +69,8 @@
   "devDependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.5",
+    "@babel/plugin-external-helpers": "^7.0.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
-    "@babel/plugin-transform-runtime": "^7.1.0",
     "@babel/preset-env": "^7.1.5",
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
