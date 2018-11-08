@@ -4,9 +4,9 @@ import builtins from 'rollup-plugin-node-builtins';
 import commonjs from 'rollup-plugin-commonjs';
 import nodeResolve from 'rollup-plugin-node-resolve';
 import css from 'rollup-plugin-css-porter';
+import { sizeSnapshot } from 'rollup-plugin-size-snapshot';
 
-const exportsOpt = 'named';
-const globalsOpt = {
+const globals = {
   react: 'React',
   'prop-types': 'PropTypes',
   recompose: 'recompose',
@@ -14,7 +14,7 @@ const globalsOpt = {
   util: 'util'
 };
 
-const config = {
+const baseConfig = {
   input: 'src/index.js',
   external: ['react', 'prop-types', 'recompose', 'difflib'],
   plugins: [
@@ -26,24 +26,22 @@ const config = {
     builtins(),
     nodeResolve({ jsnext: true }),
     commonjs({ include: 'node_modules/**' }),
-    css({ dest: 'lib/diff2html.css' })
-  ],
-  output: [
-    { file: pkg.main, format: 'cjs', exports: exportsOpt, globals: globalsOpt },
-    {
-      file: pkg.module,
-      format: 'es',
-      exports: exportsOpt,
-      globals: globalsOpt
-    },
-    {
-      file: pkg.umd,
-      format: 'umd',
-      name: 'react-gh-like-diff',
-      exports: exportsOpt,
-      globals: globalsOpt
-    }
+    css({ dest: 'lib/diff2html.css' }),
+    sizeSnapshot()
   ]
 };
 
-export default config;
+export default [
+  {
+    ...baseConfig,
+    output: { file: pkg.main, format: 'cjs' }
+  },
+  {
+    ...baseConfig,
+    output: { file: pkg.module, format: 'es' }
+  },
+  {
+    ...baseConfig,
+    output: { file: pkg.umd, name: 'ReactGhLikeDiff', format: 'umd', globals }
+  }
+];

@@ -3,7 +3,6 @@ sudo: false
 language: node_js
 
 node_js:
-  - '7'
   - '8'
   - '9'
   - '10'
@@ -15,7 +14,7 @@ cache:
 
 script:
   - "npm test"
-  - "npm run size"
+  - "npm run build && npm run size"
 
 after_script:
   - cat ./coverage/lcov.info | ./node_modules/codecov/bin/codecov
