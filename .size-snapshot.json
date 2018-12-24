@@ -19,8 +19,8 @@
     }
   },
   "dist/react-gh-like-diff.umd.js": {
-    "bundled": 16048,
-    "minified": 6736,
-    "gzipped": 2731
+    "bundled": 16077,
+    "minified": 6746,
+    "gzipped": 2743
   }
 }
