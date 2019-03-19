@@ -20,8 +20,7 @@ const baseConfig = {
   plugins: [
     babel({
       exclude: 'node_modules/**',
-      plugins: ['@babel/plugin-external-helpers'],
-      externalHelpers: true
+      runtimeHelpers: true
     }),
     builtins(),
     nodeResolve({ jsnext: true }),
