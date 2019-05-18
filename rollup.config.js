@@ -19,8 +19,7 @@ const baseConfig = {
   external: ['react', 'prop-types', 'recompose', 'difflib'],
   plugins: [
     babel({
-      exclude: 'node_modules/**',
-      runtimeHelpers: true
+      exclude: 'node_modules/**'
     }),
     builtins(),
     nodeResolve({ jsnext: true }),
