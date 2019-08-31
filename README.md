@@ -1,13 +1,12 @@
 # react-gh-like-diff
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/neighborhood999/react-gh-like-diff.svg?style=flat-square)](https://greenkeeper.io/)
 [![npm](https://flat.badgen.net/npm/v/react-gh-like-diff)](https://www.npmjs.com/package/react-gh-like-diff)
 [![Build Status](https://flat.badgen.net/travis/neighborhood999/react-gh-like-diff)](https://travis-ci.org/neighborhood999/react-gh-like-diff)
 [![Maintainability](https://api.codeclimate.com/v1/badges/4cff540dfa1df3feadd3/maintainability)](https://codeclimate.com/github/neighborhood999/react-gh-like-diff/maintainability)
 [![codecov](https://flat.badgen.net/codecov/c/github/neighborhood999/react-gh-like-diff)](https://codecov.io/gh/neighborhood999/react-gh-like-diff)
 [![styled with prettier](https://flat.badgen.net/badge/style%20with/prettier/ff69b4)](https://github.com/prettier/prettier)
 ![](https://flat.badgen.net/badge/gzip/3%20kB/green)
-![](https://flat.badgen.net/badge/module%20formats/cjs%2C%20esm%2C%20umd/green)
+![](https://flat.badgen.net/badge/module%20formats/cjs,%20esm,%20umd/green)
 
 ![react-gh-like-diff](./screenshot/diff-demo.png)
 
