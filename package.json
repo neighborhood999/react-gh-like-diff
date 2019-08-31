@@ -76,7 +76,7 @@
     "babel-eslint": "10.0.3",
     "babel-jest": "24.8.0",
     "babel-preset-minify": "0.5.1",
-    "bundlesize": "0.17.2",
+    "bundlesize": "0.18.0",
     "codecov": "3.5.0",
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.14.0",
