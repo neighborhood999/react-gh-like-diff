@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "16.9.0",
     "react-dom": "16.9.0",
-    "react-gh-like-diff": "1.0.6",
+    "react-gh-like-diff": "1.0.7",
     "react-scripts": "2.1.1",
     "unfetch": "4.1.0"
   },
