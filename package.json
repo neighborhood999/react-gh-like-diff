@@ -75,7 +75,7 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.2",
     "babel-jest": "24.8.0",
-    "babel-preset-minify": "0.5.0",
+    "babel-preset-minify": "0.5.1",
     "bundlesize": "0.17.2",
     "codecov": "3.5.0",
     "enzyme": "3.10.0",
