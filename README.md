@@ -41,7 +41,10 @@ const defaultOptions = {
   showFiles: false,
   matching: 'none',
   matchWordsThreshold: 0.25,
-  matchingMaxComparisons: 2500
+  matchingMaxComparisons: 2500,
+  maxLineSizeInBlockForComparison: 200,
+  maxLineLengthHighlight: 10000,
+  renderNothingWhenEmpty: false
 };
 ```
 
