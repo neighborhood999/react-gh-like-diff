@@ -26,6 +26,7 @@ export const ReactGhLikeDiff = compose(
   setPropTypes({
     past: PropTypes.string,
     current: PropTypes.string,
+    options: PropTypes.object,
     diffString: PropTypes.string
   }),
   branch(
