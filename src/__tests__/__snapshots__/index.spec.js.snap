@@ -919,7 +919,7 @@ exports[`should render \`.diff\` file content to HTML 1`] = `
     </td>
     <td class=\\"d2h-cntx\\">
         <div class=\\"d2h-code-side-line d2h-cntx\\">
-            <span class=\\"d2h-code-line-prefix\\"> </span>
+            <span class=\\"d2h-code-line-prefix\\">&nbsp;</span>
             <span class=\\"d2h-code-line-ctn\\">export default function* rootSaga() {</span>
         </div>
     </td>
@@ -955,7 +955,7 @@ exports[`should render \`.diff\` file content to HTML 1`] = `
     </td>
     <td class=\\"d2h-cntx\\">
         <div class=\\"d2h-code-side-line d2h-cntx\\">
-            <span class=\\"d2h-code-line-prefix\\"> </span>
+            <span class=\\"d2h-code-line-prefix\\">&nbsp;</span>
             <span class=\\"d2h-code-line-ctn\\">}</span>
         </div>
     </td>
@@ -1097,7 +1097,7 @@ exports[`should render \`.diff\` file content to HTML 1`] = `
     </td>
     <td class=\\"d2h-cntx\\">
         <div class=\\"d2h-code-side-line d2h-cntx\\">
-            <span class=\\"d2h-code-line-prefix\\"> </span>
+            <span class=\\"d2h-code-line-prefix\\">&nbsp;</span>
             <span class=\\"d2h-code-line-ctn\\">export default function* rootSaga() {</span>
         </div>
     </td>
@@ -1137,7 +1137,7 @@ exports[`should render \`.diff\` file content to HTML 1`] = `
     </td>
     <td class=\\"d2h-cntx\\">
         <div class=\\"d2h-code-side-line d2h-cntx\\">
-            <span class=\\"d2h-code-line-prefix\\"> </span>
+            <span class=\\"d2h-code-line-prefix\\">&nbsp;</span>
             <span class=\\"d2h-code-line-ctn\\">}</span>
         </div>
     </td>
