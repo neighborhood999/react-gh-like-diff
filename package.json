@@ -64,11 +64,11 @@
     "recompose": "^0.30.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.6.2",
-    "@babel/core": "7.6.2",
+    "@babel/cli": "7.6.3",
+    "@babel/core": "7.6.3",
     "@babel/plugin-proposal-object-rest-spread": "7.6.2",
-    "@babel/preset-env": "7.6.2",
-    "@babel/preset-react": "7.0.0",
+    "@babel/preset-env": "7.6.3",
+    "@babel/preset-react": "7.6.3",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.3",
     "babel-jest": "24.9.0",
