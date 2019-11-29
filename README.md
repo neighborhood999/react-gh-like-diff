@@ -1,7 +1,7 @@
 # react-gh-like-diff
 
 [![npm](https://flat.badgen.net/npm/v/react-gh-like-diff)](https://www.npmjs.com/package/react-gh-like-diff)
-[![Build Status](https://flat.badgen.net/travis/neighborhood999/react-gh-like-diff)](https://travis-ci.org/neighborhood999/react-gh-like-diff)
+[![Build Status](https://github.com/neighborhood999/react-gh-like-diff/workflows/Node%20CI/badge.svg)](https://github.com/neighborhood999/react-gh-like-diff/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/4cff540dfa1df3feadd3/maintainability)](https://codeclimate.com/github/neighborhood999/react-gh-like-diff/maintainability)
 [![codecov](https://flat.badgen.net/codecov/c/github/neighborhood999/react-gh-like-diff)](https://codecov.io/gh/neighborhood999/react-gh-like-diff)
 [![styled with prettier](https://flat.badgen.net/badge/style%20with/prettier/ff69b4)](https://github.com/prettier/prettier)
