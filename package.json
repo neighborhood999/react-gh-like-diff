@@ -34,9 +34,8 @@
     ]
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
+    "*.{js}": [
+      "npm run lint"
     ]
   },
   "author": "Peng-Jie <bivinity.pengzjie@gmail.com>",
@@ -56,47 +55,48 @@
   "bugs": {
     "url": "https://github.com/neighborhood999/react-gh-like-diff/issues"
   },
-  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run test",
+      "pre-publish": "npm run build"
+    }
+  },
   "dependencies": {
+    "@rollup/plugin-buble": "^0.21.1",
+    "@rollup/plugin-commonjs": "^11.0.2",
     "diff2html": "^2.9.0",
     "difflib": "^0.2.4",
     "prop-types": "^15.7.2",
     "recompose": "^0.30.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.7.0",
-    "@babel/core": "7.7.2",
-    "@babel/plugin-proposal-object-rest-spread": "7.6.2",
-    "@babel/preset-env": "7.7.1",
-    "@babel/preset-react": "7.7.0",
-    "babel-core": "7.0.0-bridge.0",
+    "@babel/core": "7.8.4",
+    "@babel/plugin-proposal-object-rest-spread": "7.8.3",
+    "@babel/preset-env": "7.8.4",
+    "@babel/preset-react": "7.8.3",
+    "@rollup/plugin-node-resolve": "^7.1.1",
     "babel-eslint": "10.0.3",
-    "babel-jest": "24.9.0",
-    "babel-preset-minify": "0.5.1",
     "bundlesize": "0.18.0",
-    "codecov": "3.6.1",
-    "enzyme": "3.10.0",
+    "codecov": "3.6.4",
+    "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
     "eslint": "6.8.0",
-    "eslint-config-prettier": "6.9.0",
+    "eslint-config-prettier": "6.10.0",
     "eslint-plugin-prettier": "3.1.2",
-    "eslint-plugin-react": "7.17.0",
-    "husky": "4.0.9",
-    "jest": "24.9.0",
-    "lint-staged": "9.5.0",
-    "npm-run-all": "4.1.5",
-    "prettier": "1.18.2",
-    "react": "16.11.0",
-    "react-dom": "16.11.0",
-    "react-test-renderer": "16.11.0",
+    "eslint-plugin-react": "7.18.3",
+    "husky": "4.2.1",
+    "jest": "25.1.0",
+    "lint-staged": "10.0.7",
+    "prettier": "1.19.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-test-renderer": "16.12.0",
     "rimraf": "3.0.1",
-    "rollup": "1.26.3",
-    "rollup-plugin-babel": "4.3.3",
-    "rollup-plugin-commonjs": "10.1.0",
+    "rollup": "1.31.0",
     "rollup-plugin-css-porter": "1.0.2",
     "rollup-plugin-node-builtins": "2.1.2",
-    "rollup-plugin-node-resolve": "5.2.0",
-    "rollup-plugin-size-snapshot": "0.10.0"
+    "rollup-plugin-size-snapshot": "0.11.0"
   },
   "peerDependencies": {
     "react": "^15.0.0 || ^16.0.0",
@@ -112,5 +112,6 @@
       "path": "./lib/react-gh-like-diff.cjs.js",
       "maxSize": "5.0 kB"
     }
-  ]
+  ],
+  "license": "MIT"
 }

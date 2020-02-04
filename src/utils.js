@@ -46,7 +46,4 @@ const compare = ({ past, current, options }) => {
 export const genPrettyHtml = ({ diffString, options }) =>
   getPrettyHtml(diffString, options);
 
-export default compose(
-  genPrettyHtml,
-  compare
-);
+export default compose(genPrettyHtml, compare);
