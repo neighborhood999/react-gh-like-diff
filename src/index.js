@@ -11,11 +11,11 @@ import {
 } from 'recompose';
 import 'diff2html/dist/diff2html.css';
 
-export const RenderDiffResult = ({ genDiffHTML }) => (
+const RenderDiffResult = ({ genDiffHTML }) => (
   <div dangerouslySetInnerHTML={{ __html: genDiffHTML }} />
 );
 
-export const ReactGhLikeDiff = compose(
+const ReactGhLikeDiff = compose(
   defaultProps({
     diffString: '',
     past: '',
@@ -37,3 +37,9 @@ export const ReactGhLikeDiff = compose(
     }))
   )
 )(RenderDiffResult);
+
+RenderDiffResult.propTypes = {
+  genDiffHTML: PropTypes.string
+};
+
+export { RenderDiffResult, ReactGhLikeDiff };
