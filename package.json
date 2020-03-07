@@ -69,14 +69,14 @@
     "recompose": "^0.30.0"
   },
   "devDependencies": {
-    "@babel/core": "7.8.4",
+    "@babel/core": "7.8.7",
     "@babel/plugin-proposal-object-rest-spread": "7.8.3",
-    "@babel/preset-env": "7.8.4",
+    "@babel/preset-env": "7.8.7",
     "@babel/preset-react": "7.8.3",
     "@rollup/plugin-buble": "0.21.1",
     "@rollup/plugin-commonjs": "11.0.2",
     "@rollup/plugin-node-resolve": "7.1.1",
-    "babel-eslint": "10.0.3",
+    "babel-eslint": "10.1.0",
     "bundlesize": "0.18.0",
     "codecov": "3.6.5",
     "enzyme": "3.11.0",
