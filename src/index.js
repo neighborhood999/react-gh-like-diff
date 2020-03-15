@@ -9,7 +9,7 @@ import {
   onlyUpdateForPropTypes,
   setPropTypes
 } from 'recompose';
-import 'diff2html/dist/diff2html.css';
+import 'diff2html/bundles/css/diff2html.min.css';
 
 const RenderDiffResult = ({ genDiffHTML }) => (
   <div dangerouslySetInnerHTML={{ __html: genDiffHTML }} />

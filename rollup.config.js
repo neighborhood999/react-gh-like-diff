@@ -3,7 +3,7 @@ import buble from '@rollup/plugin-buble';
 import builtins from 'rollup-plugin-node-builtins';
 import commonjs from '@rollup/plugin-commonjs';
 import nodeResolve from '@rollup/plugin-node-resolve';
-import css from 'rollup-plugin-css-porter';
+import css from 'rollup-plugin-css-only';
 import { sizeSnapshot } from 'rollup-plugin-size-snapshot';
 
 const globals = {
@@ -25,7 +25,7 @@ const baseConfig = {
     builtins(),
     nodeResolve({ jsnext: true }),
     commonjs({ include: 'node_modules/**' }),
-    css({ dest: 'lib/diff2html.css' }),
+    css({ output: 'dist/css/diff2html.min.css' }),
     sizeSnapshot()
   ]
 };
