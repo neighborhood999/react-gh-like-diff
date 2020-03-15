@@ -1,7 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should convert input string into compared html 1`] = `
-"<div class=\\"d2h-wrapper\\">
+"<div class=\\"d2h-file-list-wrapper\\">
+    <div class=\\"d2h-file-list-header\\">
+        <span class=\\"d2h-file-list-title\\">Files changed (1)</span>
+        <a class=\\"d2h-file-switch d2h-hide\\">hide</a>
+        <a class=\\"d2h-file-switch d2h-show\\">show</a>
+    </div>
+    <ol class=\\"d2h-file-list\\">
+    <li class=\\"d2h-file-list-line\\">
+    <span class=\\"d2h-file-name-wrapper\\">
+      <svg aria-hidden=\\"true\\" class=\\"d2h-icon d2h-changed\\" height=\\"16\\" title=\\"modified\\" version=\\"1.1\\"
+           viewBox=\\"0 0 14 16\\" width=\\"14\\">
+          <path d=\\"M13 1H1C0.45 1 0 1.45 0 2v12c0 0.55 0.45 1 1 1h12c0.55 0 1-0.45 1-1V2c0-0.55-0.45-1-1-1z m0 13H1V2h12v12zM4 8c0-1.66 1.34-3 3-3s3 1.34 3 3-1.34 3-3 3-3-1.34-3-3z\\"></path>
+      </svg>      <a href=\\"#d2h-425049\\" class=\\"d2h-file-name\\">Unknown-File-Name</a>
+      <span class=\\"d2h-file-stats\\">
+          <span class=\\"d2h-lines-added\\">+1</span>
+          <span class=\\"d2h-lines-deleted\\">-1</span>
+      </span>
+    </span>
+</li>
+    </ol>
+</div><div class=\\"d2h-wrapper\\">
     <div id=\\"d2h-425049\\" class=\\"d2h-file-wrapper\\" data-lang=\\"\\">
     <div class=\\"d2h-file-header\\">
       <span class=\\"d2h-file-name-wrapper\\">
@@ -21,11 +41,11 @@ exports[`should convert input string into compared html 1`] = `
         <div class=\\"d2h-code-side-line d2h-info\\">@@ -1 +1 @@</div>
     </td>
 </tr><tr>
-    <td class=\\"d2h-code-side-linenumber d2h-del\\">
+    <td class=\\"d2h-code-side-linenumber d2h-del d2h-change\\">
       1
     </td>
-    <td class=\\"d2h-del\\">
-        <div class=\\"d2h-code-side-line d2h-del\\">
+    <td class=\\"d2h-del d2h-change\\">
+        <div class=\\"d2h-code-side-line d2h-del d2h-change\\">
             <span class=\\"d2h-code-line-prefix\\">-</span>
             <span class=\\"d2h-code-line-ctn\\"><del>Hello</del> <del>World</del></span>
         </div>
@@ -45,11 +65,11 @@ exports[`should convert input string into compared html 1`] = `
         <div class=\\"d2h-code-side-line d2h-info\\"></div>
     </td>
 </tr><tr>
-    <td class=\\"d2h-code-side-linenumber d2h-ins\\">
+    <td class=\\"d2h-code-side-linenumber d2h-ins d2h-change\\">
       1
     </td>
-    <td class=\\"d2h-ins\\">
-        <div class=\\"d2h-code-side-line d2h-ins\\">
+    <td class=\\"d2h-ins d2h-change\\">
+        <div class=\\"d2h-code-side-line d2h-ins d2h-change\\">
             <span class=\\"d2h-code-line-prefix\\">+</span>
             <span class=\\"d2h-code-line-ctn\\"><ins>Hellow</ins> <ins>Hellow</ins></span>
         </div>
