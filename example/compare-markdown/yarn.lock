@@ -8431,10 +8431,10 @@ react-error-overlay@^6.0.6:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.6.tgz#ac4d9dc4c1b5c536c2c312bf66aa2b09bfa384e2"
   integrity sha512-Yzpno3enVzSrSCnnljmr4b/2KUQSMZaPuqmS26t9k4nW7uwJk6STWmH9heNjPuvqUTO3jOSPkHoKgO4+Dw7uIw==
 
-react-gh-like-diff@1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/react-gh-like-diff/-/react-gh-like-diff-1.1.4.tgz#5fa271a0b0c969c8c9d9be3c89d587f92f10b0c4"
-  integrity sha512-ONkTQKSuA0r9qJuuVbxVYCj6kKU+RL82gR53nM6Tv8+8M6BbHZEAB/t+W9ZF4xz24sA9oWPMvEkZVlT5EXbI2A==
+react-gh-like-diff@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-gh-like-diff/-/react-gh-like-diff-2.0.0.tgz#d224e3461cb0685c71f94ed3b4746c65ac4e06a3"
+  integrity sha512-VSCGgOAXG+1INaWXQ1H2Abmhb7buAFD5C+mD1UxeS70txfH4e47OqunVWnhvpXkNd6frP2UbljCGp7xsr+us5g==
   dependencies:
     diff2html "^3.1.6"
     difflib "^0.2.4"
