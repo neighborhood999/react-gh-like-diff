@@ -3,7 +3,7 @@ import { ReactGhLikeDiff } from 'react-gh-like-diff';
 import fetch from 'unfetch';
 import { TITLE, PAST, CURRENT } from './constants';
 import './App.css';
-import 'react-gh-like-diff/lib/diff2html.min.css';
+import 'react-gh-like-diff/dist/css/diff2html.min.css';
 
 class App extends Component {
   state = {

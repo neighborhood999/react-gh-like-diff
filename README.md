@@ -50,6 +50,16 @@ const defaultOptions = {
 
 You can custom options for you want, just pass `options` as props. The configuration you can reference [here](https://github.com/rtfpessoa/diff2html#configuration). :mag_right:
 
+## Style
+
+Import css style make sure render correctly:
+
+```js
+import 'react-gh-like-diff/dist/css/diff2html.min.css';
+```
+
+You also can reference [examples](https://github.com/neighborhood999/react-gh-like-diff/blob/master/example/compare-markdown/src/App.js).
+
 ## Props
 
 ### past
