@@ -1,6 +1,6 @@
 {
   "name": "react-gh-like-diff",
-  "version": "1.1.4",
+  "version": "2.0.0",
   "description": "Generate Github like diff result in react.",
   "main": "dist/js/react-gh-like-diff.cjs.js",
   "module": "dist/js/react-gh-like-diff.esm.js",
