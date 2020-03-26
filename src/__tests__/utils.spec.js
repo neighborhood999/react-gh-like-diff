@@ -1,6 +1,6 @@
 import utils, { defaultOptions } from '../utils';
 
-test('should convert input string into compared html', () => {
+it('should convert input string into compared html', () => {
   const past = 'Hello World';
   const current = 'Hellow Hellow';
   const props = {

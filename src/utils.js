@@ -1,4 +1,4 @@
-const Diff2Html = require('diff2html');
+import { html } from 'diff2html';
 import { unifiedDiff } from 'difflib';
 import { format } from 'util';
 import { compose } from 'recompose';
@@ -41,6 +41,6 @@ const compare = ({ past, current, options }) => {
 };
 
 export const genPrettyHtml = ({ diffString, options }) =>
-  Diff2Html.html(diffString, options);
+  html(diffString, options);
 
 export default compose(genPrettyHtml, compare);
