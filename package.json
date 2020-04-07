@@ -66,8 +66,6 @@
     "diff2html": "^3.1.6",
     "difflib": "^0.2.4",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
     "recompose": "^0.30.0"
   },
   "devDependencies": {
@@ -92,13 +90,17 @@
     "jest": "25.2.7",
     "lint-staged": "10.1.2",
     "prettier": "2.0.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "rimraf": "3.0.2",
     "rollup": "2.3.3",
     "rollup-plugin-css-only": "2.0.0",
     "rollup-plugin-node-builtins": "2.1.2",
     "rollup-plugin-size-snapshot": "0.11.0"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
   "files": [
     "lib",
     "es",
