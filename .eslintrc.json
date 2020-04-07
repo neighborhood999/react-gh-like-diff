@@ -6,19 +6,15 @@
     "es6": true
   },
   "extends": [
+    "eslint:recommended",
     "prettier",
     "prettier/react",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:jest/recommended"
   ],
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "react"],
   "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "bracketSpacing": true,
-        "singleQuote": true
-      }
-    ]
+    "prettier/prettier": "error"
   },
   "settings": {
     "react": {
