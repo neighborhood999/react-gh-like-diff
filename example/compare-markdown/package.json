@@ -6,7 +6,7 @@
     "react": "16.13.0",
     "react-dom": "16.13.0",
     "react-gh-like-diff": "2.0.0",
-    "react-scripts": "3.4.0",
+    "react-scripts": "3.4.4",
     "unfetch": "4.1.0"
   },
   "scripts": {
